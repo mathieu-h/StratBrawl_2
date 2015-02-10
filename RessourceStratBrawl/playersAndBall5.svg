@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="playersAndBall5.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="388.79342"
+     inkscape:cy="515.66006"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3323-8"
+     showgrid="false"
+     inkscape:window-width="994"
+     inkscape:window-height="787"
+     inkscape:window-x="526"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3411-5"
+       sodipodi:cx="256.8313"
+       sodipodi:cy="439.45212"
+       sodipodi:rx="10.206131"
+       sodipodi:ry="6.8439112"
+       d="m 267.03743,439.45212 a 10.206131,6.8439112 0 1 1 -20.41226,0 10.206131,6.8439112 0 1 1 20.41226,0 z"
+       transform="matrix(0.77768408,0,0,1.1381228,-32.752336,-146.17398)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.01640975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 180.83845,357.46983 c 0,5.63997 -6.32749,12.73743 -12.2637,12.73743 -5.93622,0 -10.74847,-4.57208 -10.74847,-10.21205 0,-5.63995 5.82241,-11.2222 11.75862,-11.2222 5.93622,0 11.25355,3.05687 11.25355,8.69682 z"
+       id="path3321-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#aa0000;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985"
+       sodipodi:cx="189.90868"
+       sodipodi:cy="395.76303"
+       sodipodi:rx="46.467018"
+       sodipodi:ry="38.385796"
+       d="m 236.37569,395.76303 a 46.467018,38.385796 0 1 1 -92.93403,0 46.467018,38.385796 0 1 1 92.93403,0 z"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(-235.69421,-4.1706478)"
+       id="g3286-9"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path3411-4-5"
+         d="m 446.45467,451.19114 c 0,4.30186 -3.55359,13.14635 -7.93715,13.14635 -4.38356,0 -7.93714,-8.84449 -7.93714,-13.14635 0,-4.30187 3.55358,-7.78921 7.93714,-7.78921 4.38356,0 7.93715,3.48734 7.93715,7.78921 z"
+         style="fill:#a05a2c;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.66676724;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <g
+         id="g3190-4">
+        <path
+           style="fill:#916f6f;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.83700436;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m 449.3542,441.64637 c 0,5.6009 -3.36557,7.58006 -8.50522,7.58006 -5.13965,0 -12.15279,1.11258 -12.15279,-4.48832 0,-5.6009 7.19697,-11.15148 12.33662,-11.15148 5.13965,0 8.32139,2.45884 8.32139,8.05974 z"
+           id="path3321-4-3"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sssss" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3438-1"
+           sodipodi:cx="198.21428"
+           sodipodi:cy="439.68362"
+           sodipodi:rx="3.9285715"
+           sodipodi:ry="0.17857143"
+           d="m 202.14285,439.68362 c 0,0.0986 -1.75888,0.17858 -3.92857,0.17858 -2.16969,0 -3.92857,-0.0799 -3.92857,-0.17858 0,-0.0986 1.75888,-0.17857 3.92857,-0.17857 1.27916,0 2.47823,0.0283 3.21389,0.0759 l -3.21389,0.10269 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3440-2"
+           sodipodi:cx="197.67857"
+           sodipodi:cy="443.07648"
+           sodipodi:rx="1.6071428"
+           sodipodi:ry="0.35714287"
+           d="m 199.28572,443.07648 c 0,0.19724 -0.71955,0.35714 -1.60715,0.35714 -0.8876,0 -1.60714,-0.1599 -1.60714,-0.35714 0,-0.19725 0.71954,-0.35715 1.60714,-0.35715 0.5233,0 1.01383,0.0566 1.31478,0.15175 l -1.31478,0.2054 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3442-3"
+           sodipodi:cx="197.85715"
+           sodipodi:cy="447.36218"
+           sodipodi:rx="0.71428573"
+           sodipodi:ry="0.71428573"
+           d="m 198.57143,447.36218 c 0,0.39449 -0.31979,0.71429 -0.71428,0.71429 -0.39449,0 -0.71429,-0.3198 -0.71429,-0.71429 0,-0.39449 0.3198,-0.71428 0.71429,-0.71428 0.23257,0 0.45059,0.11323 0.58434,0.30349 l -0.58434,0.41079 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+      </g>
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 225.28432,417.98639 c 0,6.13681 -13.82369,20.20305 -35.86041,20.20305 -22.03673,0 -35.86042,-14.06624 -35.86042,-20.20305 0,-6.13681 13.82369,9.09137 35.86042,9.09137 22.03672,0 35.86041,-15.22818 35.86041,-9.09137 z"
+       id="path2987"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 128.01753,433.80171 c 3.49727,11.7648 22.19648,32.39382 28.07889,30.64519 5.88239,-1.74864 1.03799,-10.68861 -2.45928,-22.45343 -3.49727,-11.76481 -4.32307,-21.89936 -10.20548,-20.15073 -5.88241,1.74864 -18.91141,0.19418 -15.41413,11.95897 z"
+       id="path3015-7-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="7.3877809"
+       inkscape:transform-center-y="16.166455"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 147.96531,417.28909 c -12.49587,35.52971 -44.99045,-5.73647 -20.13151,-4.72697 6.1365,0.0613 20.25414,-7.54601 20.13151,4.72697 z"
+       id="path3015-7-4-9-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="-12.105702"
+       inkscape:transform-center-y="14.879865"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 106.36864,394.75287 c 0,11.99467 21.7398,23.73859 34.85026,23.73859 13.11046,0 1.51523,-11.74392 1.51523,-23.73859 0,-11.99468 12.60538,-25.75889 -0.50508,-25.75889 -13.11046,0 -35.86041,13.76421 -35.86041,25.75889 z"
+       id="path2994-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 245.33308,441.62274 c -8.62582,8.73137 -34.83676,18.123 -39.20246,13.8101 -4.36569,-4.31292 4.11814,-9.9179 12.74396,-18.64929 8.62582,-8.73138 14.12721,-17.28275 18.49289,-12.96984 4.36569,4.31292 16.59143,9.07765 7.96561,17.80903 z"
+       id="path3015-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 259.08209,422.33986 c -12.49587,35.52971 -44.99046,-5.73647 -20.13151,-4.72697 6.1365,0.0613 20.25414,-7.54601 20.13151,4.72697 z"
+       id="path3015-7-4-9-3-6-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="-12.1057"
+       inkscape:transform-center-y="14.879865"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-9.0913729,-4.0406102)"
+       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 281.83256,401.31888 c 0,11.99467 -21.7398,23.73859 -34.85026,23.73859 -13.11046,0 -1.51523,-11.74392 -1.51523,-23.73859 0,-11.99468 -12.60538,-25.75889 0.50508,-25.75889 13.11046,0 35.86041,13.76421 35.86041,25.75889 z"
+       id="path2994"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#2b1100;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.16193712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 170.16839,463.60671 c 0.0302,3.51559 7.54933,8.32156 4.31268,8.34935 -3.23666,0.0278 -16.00346,-4.73311 -16.03365,-8.2487 -0.0302,-3.5156 2.56917,-6.38807 5.80583,-6.41587 3.23665,-0.0278 5.88495,2.79963 5.91514,6.31522 z"
+       id="path3054"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,102.32967,128.70984)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-4"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,130.61395,128.20476)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-8"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,87.177384,148.40781)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-82"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,144.75608,147.39766)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-45"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,117.48196,156.48903)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#2b1100;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.16193712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 195.36952,455.66027 c -0.83061,3.41619 -9.24721,6.382 -6.10206,7.14673 3.14514,0.76471 16.661,-0.96124 17.49162,-4.37743 0.83061,-3.41621 -1.04566,-6.80549 -4.1908,-7.57021 -3.14514,-0.76471 -6.36813,1.38471 -7.19876,4.80091 z"
+       id="path3054-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3263"
+       transform="matrix(0.50055893,-0.54320094,0.58660903,0.4635184,-333.45154,399.96845)"
+       inkscape:transform-center-x="-102.04601"
+       inkscape:transform-center-y="59.149401"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(0.87089609,0,0,0.87089609,17.248746,254.47169)"
+         d="m 427.29453,355.33542 c 0,18.95645 -9.49747,34.32368 -21.2132,34.32368 -11.71573,0 -21.2132,-15.36723 -21.2132,-34.32368 0,-18.95645 9.49747,-34.32369 21.2132,-34.32369 11.71573,0 21.2132,15.36724 21.2132,34.32369 z"
+         sodipodi:ry="34.323685"
+         sodipodi:rx="21.213203"
+         sodipodi:cy="355.33542"
+         sodipodi:cx="406.08133"
+         id="path3156"
+         style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3171"
+         d="m 357.79229,543.40154 26.53598,-0.3635 3.63506,8.72415 -34.16961,0.72702 z"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.63753504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3171-1"
+         d="m 358.39549,586.59401 24.70241,-0.26429 4.63909,-9.26182 -33.79868,0.65437 z"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.63753504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <rect
+         ry="1.9992859"
+         y="557.57831"
+         x="368.69748"
+         height="13.813248"
+         width="3.9985719"
+         id="rect3196"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.63753504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         ry="1.5079426"
+         y="-375.72427"
+         x="559.82092"
+         height="10.418512"
+         width="2.0578628"
+         id="rect3196-7"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.39720502;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         ry="1.5079426"
+         y="-376.08777"
+         x="563.09247"
+         height="10.418512"
+         width="2.0578628"
+         id="rect3196-7-1"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.39720502;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         ry="1.5079426"
+         y="-376.0878"
+         x="567.09106"
+         height="10.418512"
+         width="2.0578628"
+         id="rect3196-7-1-1"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.39720502;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 488.5461,432.49368 c -6.15277,10.62003 -29.15945,26.3015 -34.46947,23.22513 -5.31003,-3.07639 1.49157,-10.6348 7.64434,-21.25485 6.15277,-10.62003 9.32679,-20.2801 14.6368,-17.20371 5.31003,3.07639 18.34111,4.61339 12.18833,15.23343 z"
+       id="path3015-7-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="-8.3969683"
+       inkscape:transform-center-y="-1.3431628"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 349.25298,425.95129 c 5.33342,11.05423 27.09053,28.42791 32.61767,25.7612 5.52712,-2.6667 -0.68443,-10.71705 -6.01786,-21.77131 -5.33341,-11.05425 -7.76907,-20.92637 -13.2962,-18.25966 -5.52712,2.66671 -18.63704,3.21555 -13.30361,14.26977 z"
+       id="path3015-7-4-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="4.3599437"
+       inkscape:transform-center-y="16.043711"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#2b1100;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.16193712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 382.98089,447.37371 c 0.51297,3.4781 8.62115,7.20532 5.419,7.67757 -3.20213,0.47226 -16.50201,-2.48926 -17.01497,-5.96737 -0.51298,-3.4781 1.66706,-6.6805 4.86921,-7.15276 3.20212,-0.47226 6.2138,1.96447 6.72674,5.44259 z"
+       id="path3054-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#2b1100;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.16193712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 452.82455,453.62631 c 1.0259,3.3627 -4.70509,10.2031 -1.60917,9.2586 3.0959,-0.94453 13.84632,-9.31625 12.82042,-12.67895 -1.02594,-3.36272 -4.3673,-5.32306 -7.4632,-4.37855 -3.0959,0.94451 -4.77398,4.43619 -3.74805,7.7989 z"
+       id="path3054-5-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="8.1465862"
+       inkscape:transform-center-y="26.016725"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 376.361,421.31239 c -12.49587,35.52971 -44.99045,-5.73647 -20.13151,-4.72697 6.1365,0.0613 20.25414,-7.54601 20.13151,4.72697 z"
+       id="path3015-7-4-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="-12.105702"
+       inkscape:transform-center-y="14.879865"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3411"
+       sodipodi:cx="256.8313"
+       sodipodi:cy="439.45212"
+       sodipodi:rx="10.206131"
+       sodipodi:ry="6.8439112"
+       d="m 267.03743,439.45212 a 10.206131,6.8439112 0 1 1 -20.41226,0 10.206131,6.8439112 0 1 1 20.41226,0 z"
+       transform="matrix(0.77768408,0,0,1.1381228,198.52835,-140.048)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.01640975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 412.11913,363.59581 c 0,5.63997 -6.32749,12.73743 -12.2637,12.73743 -5.93622,0 -10.74847,-4.57208 -10.74847,-10.21205 0,-5.63995 5.82241,-11.2222 11.75862,-11.2222 5.93622,0 11.25355,3.05687 11.25355,8.69682 z"
+       id="path3321"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 492.52855,424.34284 c -12.49587,35.52971 -44.99046,-5.73647 -20.13151,-4.72697 6.1365,0.0613 20.25414,-7.54601 20.13151,4.72697 z"
+       id="path3015-7-4-9-3-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="-12.1057"
+       inkscape:transform-center-y="14.879865"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3286"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path3411-4"
+         d="m 446.45467,451.19114 c 0,4.30186 -3.55359,13.14635 -7.93715,13.14635 -4.38356,0 -7.93714,-8.84449 -7.93714,-13.14635 0,-4.30187 3.55358,-7.78921 7.93714,-7.78921 4.38356,0 7.93715,3.48734 7.93715,7.78921 z"
+         style="fill:#a05a2c;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.66676724;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <g
+         id="g3190">
+        <path
+           style="fill:#916f6f;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.83700436;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m 449.3542,441.64637 c 0,5.6009 -3.36557,7.58006 -8.50522,7.58006 -5.13965,0 -12.15279,1.11258 -12.15279,-4.48832 0,-5.6009 7.19697,-11.15148 12.33662,-11.15148 5.13965,0 8.32139,2.45884 8.32139,8.05974 z"
+           id="path3321-4"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sssss" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3438"
+           sodipodi:cx="198.21428"
+           sodipodi:cy="439.68362"
+           sodipodi:rx="3.9285715"
+           sodipodi:ry="0.17857143"
+           d="m 202.14285,439.68362 c 0,0.0986 -1.75888,0.17858 -3.92857,0.17858 -2.16969,0 -3.92857,-0.0799 -3.92857,-0.17858 0,-0.0986 1.75888,-0.17857 3.92857,-0.17857 1.27916,0 2.47823,0.0283 3.21389,0.0759 l -3.21389,0.10269 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3440"
+           sodipodi:cx="197.67857"
+           sodipodi:cy="443.07648"
+           sodipodi:rx="1.6071428"
+           sodipodi:ry="0.35714287"
+           d="m 199.28572,443.07648 c 0,0.19724 -0.71955,0.35714 -1.60715,0.35714 -0.8876,0 -1.60714,-0.1599 -1.60714,-0.35714 0,-0.19725 0.71954,-0.35715 1.60714,-0.35715 0.5233,0 1.01383,0.0566 1.31478,0.15175 l -1.31478,0.2054 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3442"
+           sodipodi:cx="197.85715"
+           sodipodi:cy="447.36218"
+           sodipodi:rx="0.71428573"
+           sodipodi:ry="0.71428573"
+           d="m 198.57143,447.36218 c 0,0.39449 -0.31979,0.71429 -0.71428,0.71429 -0.39449,0 -0.71429,-0.3198 -0.71429,-0.71429 0,-0.39449 0.3198,-0.71428 0.71429,-0.71428 0.23257,0 0.45059,0.11323 0.58434,0.30349 l -0.58434,0.41079 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+      </g>
+    </g>
+    <g
+       id="g3323"
+       transform="translate(231.93123,5.538534)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         d="m 236.37569,395.76303 c 0,21.19989 -20.80399,38.3858 -46.46701,38.3858 -25.66303,0 -46.46702,-17.18591 -46.46702,-38.3858 0,-21.19989 20.80399,-38.38579 46.46702,-38.38579 25.66302,0 46.46701,17.1859 46.46701,38.38579 z"
+         sodipodi:ry="38.385796"
+         sodipodi:rx="46.467018"
+         sodipodi:cy="395.76303"
+         sodipodi:cx="189.90868"
+         id="path2985-9"
+         style="fill:#aa0000;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path2987-4"
+         d="m 225.28432,417.98639 c 0,6.13681 -13.82369,20.20305 -35.86041,20.20305 -22.03673,0 -35.86042,-14.06624 -35.86042,-20.20305 0,-6.13681 13.82369,9.09137 35.86042,9.09137 22.03672,0 35.86041,-15.22818 35.86041,-9.09137 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path2994-8"
+         d="m 274.25642,395.76304 c 0,11.99467 -21.7398,23.73859 -34.85026,23.73859 -13.11046,0 -1.51523,-11.74392 -1.51523,-23.73859 0,-11.99468 -12.60538,-25.75889 0.50508,-25.75889 13.11046,0 35.86041,13.76421 35.86041,25.75889 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path2994-1-8"
+         d="m 106.36864,394.75287 c 0,11.99467 21.7398,23.73859 34.85026,23.73859 13.11046,0 1.51523,-11.74392 1.51523,-23.73859 0,-11.99468 12.60538,-25.75889 -0.50508,-25.75889 -13.11046,0 -35.86041,13.76421 -35.86041,25.75889 z"
+         style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,102.32967,128.70984)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-2"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,130.61395,128.20476)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-4-4"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,87.177384,148.40781)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-8-5"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,144.75608,147.39766)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-82-5"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,117.48196,156.48903)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-45-1"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3411-5-3"
+       sodipodi:cx="256.8313"
+       sodipodi:cy="439.45212"
+       sodipodi:rx="10.206131"
+       sodipodi:ry="6.8439112"
+       d="m 267.03743,439.45212 a 10.206131,6.8439112 0 1 1 -20.41226,0 10.206131,6.8439112 0 1 1 20.41226,0 z"
+       transform="matrix(0.77768408,0,0,1.1381228,-18.81213,60.36164)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.01640975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 194.77866,564.00545 c 0,5.63997 -6.32749,12.73743 -12.2637,12.73743 -5.93622,0 -10.74847,-4.57208 -10.74847,-10.21205 0,-5.63995 5.82241,-11.2222 11.75862,-11.2222 5.93622,0 11.25355,3.05687 11.25355,8.69682 z"
+       id="path3321-2-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(13.94021,206.53562)"
+       sodipodi:type="arc"
+       style="fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2985-1"
+       sodipodi:cx="189.90868"
+       sodipodi:cy="395.76303"
+       sodipodi:rx="46.467018"
+       sodipodi:ry="38.385796"
+       d="m 236.37569,395.76303 a 46.467018,38.385796 0 1 1 -92.93403,0 46.467018,38.385796 0 1 1 92.93403,0 z"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(-221.754,202.36497)"
+       id="g3286-9-1"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path3411-4-5-3"
+         d="m 446.45467,451.19114 c 0,4.30186 -3.55359,13.14635 -7.93715,13.14635 -4.38356,0 -7.93714,-8.84449 -7.93714,-13.14635 0,-4.30187 3.55358,-7.78921 7.93714,-7.78921 4.38356,0 7.93715,3.48734 7.93715,7.78921 z"
+         style="fill:#a05a2c;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.66676724;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <g
+         id="g3190-4-8">
+        <path
+           style="fill:#916f6f;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.83700436;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m 449.3542,441.64637 c 0,5.6009 -3.36557,7.58006 -8.50522,7.58006 -5.13965,0 -12.15279,1.11258 -12.15279,-4.48832 0,-5.6009 7.19697,-11.15148 12.33662,-11.15148 5.13965,0 8.32139,2.45884 8.32139,8.05974 z"
+           id="path3321-4-3-7"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sssss" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3438-1-4"
+           sodipodi:cx="198.21428"
+           sodipodi:cy="439.68362"
+           sodipodi:rx="3.9285715"
+           sodipodi:ry="0.17857143"
+           d="m 202.14285,439.68362 c 0,0.0986 -1.75888,0.17858 -3.92857,0.17858 -2.16969,0 -3.92857,-0.0799 -3.92857,-0.17858 0,-0.0986 1.75888,-0.17857 3.92857,-0.17857 1.27916,0 2.47823,0.0283 3.21389,0.0759 l -3.21389,0.10269 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3440-2-2"
+           sodipodi:cx="197.67857"
+           sodipodi:cy="443.07648"
+           sodipodi:rx="1.6071428"
+           sodipodi:ry="0.35714287"
+           d="m 199.28572,443.07648 c 0,0.19724 -0.71955,0.35714 -1.60715,0.35714 -0.8876,0 -1.60714,-0.1599 -1.60714,-0.35714 0,-0.19725 0.71954,-0.35715 1.60714,-0.35715 0.5233,0 1.01383,0.0566 1.31478,0.15175 l -1.31478,0.2054 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3442-3-7"
+           sodipodi:cx="197.85715"
+           sodipodi:cy="447.36218"
+           sodipodi:rx="0.71428573"
+           sodipodi:ry="0.71428573"
+           d="m 198.57143,447.36218 c 0,0.39449 -0.31979,0.71429 -0.71428,0.71429 -0.39449,0 -0.71429,-0.3198 -0.71429,-0.71429 0,-0.39449 0.3198,-0.71428 0.71429,-0.71428 0.23257,0 0.45059,0.11323 0.58434,0.30349 l -0.58434,0.41079 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+      </g>
+    </g>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 239.22453,624.52201 c 0,6.13681 -13.82369,20.20305 -35.86041,20.20305 -22.03673,0 -35.86042,-14.06624 -35.86042,-20.20305 0,-6.13681 13.82369,9.09137 35.86042,9.09137 22.03672,0 35.86041,-15.22818 35.86041,-9.09137 z"
+       id="path2987-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 141.95774,640.33733 c 3.49727,11.7648 22.19648,32.39382 28.07889,30.64519 5.88239,-1.74864 1.03799,-10.68861 -2.45928,-22.45343 -3.49727,-11.76481 -4.32307,-21.89936 -10.20548,-20.15073 -5.88241,1.74864 -18.91141,0.19418 -15.41413,11.95897 z"
+       id="path3015-7-4-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="7.3877809"
+       inkscape:transform-center-y="16.166455"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 161.90552,623.82471 c -12.49587,35.52971 -44.99045,-5.73647 -20.13151,-4.72697 6.1365,0.0613 20.25414,-7.54601 20.13151,4.72697 z"
+       id="path3015-7-4-9-3-7-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="-12.105702"
+       inkscape:transform-center-y="14.879865"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 120.30885,601.28849 c 0,11.99467 21.7398,23.73859 34.85026,23.73859 13.11046,0 1.51523,-11.74392 1.51523,-23.73859 0,-11.99468 12.60538,-25.75889 -0.50508,-25.75889 -13.11046,0 -35.86041,13.76421 -35.86041,25.75889 z"
+       id="path2994-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 259.27329,648.15836 c -8.62582,8.73137 -34.83676,18.123 -39.20246,13.8101 -4.36569,-4.31292 4.11814,-9.9179 12.74396,-18.64929 8.62582,-8.73138 14.12721,-17.28275 18.49289,-12.96984 4.36569,4.31292 16.59143,9.07765 7.96561,17.80903 z"
+       id="path3015-7-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 273.0223,628.87548 c -12.49587,35.52971 -44.99046,-5.73647 -20.13151,-4.72697 6.1365,0.0613 20.25414,-7.54601 20.13151,4.72697 z"
+       id="path3015-7-4-9-3-6-1-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="-12.1057"
+       inkscape:transform-center-y="14.879865"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 286.68139,603.81389 c 0,11.99467 -21.7398,23.73859 -34.85026,23.73859 -13.11046,0 -1.51523,-11.74392 -1.51523,-23.73859 0,-11.99468 -12.60538,-25.75889 0.50508,-25.75889 13.11046,0 35.86041,13.76421 35.86041,25.75889 z"
+       id="path2994-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#2b1100;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.16193712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 184.1086,670.14233 c 0.0302,3.51559 7.54933,8.32156 4.31268,8.34935 -3.23666,0.0278 -16.00346,-4.73311 -16.03365,-8.2487 -0.0302,-3.5156 2.56917,-6.38807 5.80583,-6.41587 3.23665,-0.0278 5.88495,2.79963 5.91514,6.31522 z"
+       id="path3054-50"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-28"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,116.26988,335.24546)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-4-6"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,144.55416,334.74038)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-8-0"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,101.1176,354.94343)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-82-2"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,158.69629,353.93328)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3054-0-9-45-4"
+       sodipodi:cx="162.63457"
+       sodipodi:cy="474.04984"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="8.586297"
+       d="m 172.73609,474.04984 a 10.101525,8.586297 0 1 1 -20.20305,0 10.101525,8.586297 0 1 1 20.20305,0 z"
+       transform="matrix(0.44533409,0,0,0.52392249,131.42217,363.02465)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#2b1100;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.16193712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 209.30973,662.19589 c -0.83061,3.41619 -9.24721,6.382 -6.10206,7.14673 3.14514,0.76471 16.661,-0.96124 17.49162,-4.37743 0.83061,-3.41621 -1.04566,-6.80549 -4.1908,-7.57021 -3.14514,-0.76471 -6.36813,1.38471 -7.19876,4.80091 z"
+       id="path3054-5-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3263-6"
+       transform="matrix(0.50055893,-0.54320094,0.58660903,0.4635184,-319.51133,606.50407)"
+       inkscape:transform-center-x="-102.04601"
+       inkscape:transform-center-y="59.149401"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="matrix(0.87089609,0,0,0.87089609,17.248746,254.47169)"
+         d="m 427.29453,355.33542 c 0,18.95645 -9.49747,34.32368 -21.2132,34.32368 -11.71573,0 -21.2132,-15.36723 -21.2132,-34.32368 0,-18.95645 9.49747,-34.32369 21.2132,-34.32369 11.71573,0 21.2132,15.36724 21.2132,34.32369 z"
+         sodipodi:ry="34.323685"
+         sodipodi:rx="21.213203"
+         sodipodi:cy="355.33542"
+         sodipodi:cx="406.08133"
+         id="path3156-5"
+         style="fill:#aa4400;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3171-0"
+         d="m 357.79229,543.40154 26.53598,-0.3635 3.63506,8.72415 -34.16961,0.72702 z"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.63753504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3171-1-9"
+         d="m 358.39549,586.59401 24.70241,-0.26429 4.63909,-9.26182 -33.79868,0.65437 z"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.63753504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <rect
+         ry="1.9992859"
+         y="557.57831"
+         x="368.69748"
+         height="13.813248"
+         width="3.9985719"
+         id="rect3196-0"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.63753504;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         ry="1.5079426"
+         y="-375.72427"
+         x="559.82092"
+         height="10.418512"
+         width="2.0578628"
+         id="rect3196-7-0"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.39720502;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         ry="1.5079426"
+         y="-376.08777"
+         x="563.09247"
+         height="10.418512"
+         width="2.0578628"
+         id="rect3196-7-1-6"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.39720502;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         ry="1.5079426"
+         y="-376.0878"
+         x="567.09106"
+         height="10.418512"
+         width="2.0578628"
+         id="rect3196-7-1-1-1"
+         style="fill:#ffe6d5;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.39720502;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 502.48631,639.0293 c -6.15277,10.62003 -29.15945,26.3015 -34.46947,23.22513 -5.31003,-3.07639 1.49157,-10.6348 7.64434,-21.25485 6.15277,-10.62003 9.32679,-20.2801 14.6368,-17.20371 5.31003,3.07639 18.34111,4.61339 12.18833,15.23343 z"
+       id="path3015-7-1-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="-8.3969683"
+       inkscape:transform-center-y="-1.3431628"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 363.19319,632.48691 c 5.33342,11.05423 27.09053,28.42791 32.61767,25.7612 5.52712,-2.6667 -0.68443,-10.71705 -6.01786,-21.77131 -5.33341,-11.05425 -7.76907,-20.92637 -13.2962,-18.25966 -5.52712,2.66671 -18.63704,3.21555 -13.30361,14.26977 z"
+       id="path3015-7-4-7-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="4.3599437"
+       inkscape:transform-center-y="16.043711"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#2b1100;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.16193712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 396.9211,653.90933 c 0.51297,3.4781 8.62115,7.20532 5.419,7.67757 -3.20213,0.47226 -16.50201,-2.48926 -17.01497,-5.96737 -0.51298,-3.4781 1.66706,-6.6805 4.86921,-7.15276 3.20212,-0.47226 6.2138,1.96447 6.72674,5.44259 z"
+       id="path3054-4-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#2b1100;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.16193712;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 466.76476,660.16193 c 1.0259,3.3627 -4.70509,10.2031 -1.60917,9.2586 3.0959,-0.94453 13.84632,-9.31625 12.82042,-12.67895 -1.02594,-3.36272 -4.3673,-5.32306 -7.4632,-4.37855 -3.0959,0.94451 -4.77398,4.43619 -3.74805,7.7989 z"
+       id="path3054-5-0-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:transform-center-x="8.1465862"
+       inkscape:transform-center-y="26.016725"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 390.30121,627.84801 c -12.49587,35.52971 -44.99045,-5.73647 -20.13151,-4.72697 6.1365,0.0613 20.25414,-7.54601 20.13151,4.72697 z"
+       id="path3015-7-4-9-3-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="-12.105702"
+       inkscape:transform-center-y="14.879865"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3411-46"
+       sodipodi:cx="256.8313"
+       sodipodi:cy="439.45212"
+       sodipodi:rx="10.206131"
+       sodipodi:ry="6.8439112"
+       d="m 267.03743,439.45212 a 10.206131,6.8439112 0 1 1 -20.41226,0 10.206131,6.8439112 0 1 1 20.41226,0 z"
+       transform="matrix(0.77768408,0,0,1.1381228,212.46856,66.48762)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.01640975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 426.05934,570.13143 c 0,5.63997 -6.32749,12.73743 -12.2637,12.73743 -5.93622,0 -10.74847,-4.57208 -10.74847,-10.21205 0,-5.63995 5.82241,-11.2222 11.75862,-11.2222 5.93622,0 11.25355,3.05687 11.25355,8.69682 z"
+       id="path3321-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:#e9c6af;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+       d="m 506.46876,630.87846 c -12.49587,35.52971 -44.99046,-5.73647 -20.13151,-4.72697 6.1365,0.0613 20.25414,-7.54601 20.13151,4.72697 z"
+       id="path3015-7-4-9-3-6-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="-12.1057"
+       inkscape:transform-center-y="14.879865"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(13.94021,206.53562)"
+       id="g3286-6"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path3411-4-1"
+         d="m 446.45467,451.19114 c 0,4.30186 -3.55359,13.14635 -7.93715,13.14635 -4.38356,0 -7.93714,-8.84449 -7.93714,-13.14635 0,-4.30187 3.55358,-7.78921 7.93714,-7.78921 4.38356,0 7.93715,3.48734 7.93715,7.78921 z"
+         style="fill:#a05a2c;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.66676724;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <g
+         id="g3190-8">
+        <path
+           style="fill:#916f6f;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:0.83700436;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
+           d="m 449.3542,441.64637 c 0,5.6009 -3.36557,7.58006 -8.50522,7.58006 -5.13965,0 -12.15279,1.11258 -12.15279,-4.48832 0,-5.6009 7.19697,-11.15148 12.33662,-11.15148 5.13965,0 8.32139,2.45884 8.32139,8.05974 z"
+           id="path3321-4-4"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="sssss" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3438-9"
+           sodipodi:cx="198.21428"
+           sodipodi:cy="439.68362"
+           sodipodi:rx="3.9285715"
+           sodipodi:ry="0.17857143"
+           d="m 202.14285,439.68362 c 0,0.0986 -1.75888,0.17858 -3.92857,0.17858 -2.16969,0 -3.92857,-0.0799 -3.92857,-0.17858 0,-0.0986 1.75888,-0.17857 3.92857,-0.17857 1.27916,0 2.47823,0.0283 3.21389,0.0759 l -3.21389,0.10269 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3440-6"
+           sodipodi:cx="197.67857"
+           sodipodi:cy="443.07648"
+           sodipodi:rx="1.6071428"
+           sodipodi:ry="0.35714287"
+           d="m 199.28572,443.07648 c 0,0.19724 -0.71955,0.35714 -1.60715,0.35714 -0.8876,0 -1.60714,-0.1599 -1.60714,-0.35714 0,-0.19725 0.71954,-0.35715 1.60714,-0.35715 0.5233,0 1.01383,0.0566 1.31478,0.15175 l -1.31478,0.2054 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+        <path
+           transform="translate(240.51752,13.114674)"
+           sodipodi:type="arc"
+           style="fill:#c87137;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3442-37"
+           sodipodi:cx="197.85715"
+           sodipodi:cy="447.36218"
+           sodipodi:rx="0.71428573"
+           sodipodi:ry="0.71428573"
+           d="m 198.57143,447.36218 c 0,0.39449 -0.31979,0.71429 -0.71428,0.71429 -0.39449,0 -0.71429,-0.3198 -0.71429,-0.71429 0,-0.39449 0.3198,-0.71428 0.71429,-0.71428 0.23257,0 0.45059,0.11323 0.58434,0.30349 l -0.58434,0.41079 z"
+           sodipodi:start="0"
+           sodipodi:end="5.670454" />
+      </g>
+    </g>
+    <g
+       id="g3323-8"
+       transform="translate(245.87144,212.07415)"
+       inkscape:export-filename="D:\COURS\Unity\StratBrawl\RessourceStratBrawl\players.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         d="m 236.37569,395.76303 c 0,21.19989 -20.80399,38.3858 -46.46701,38.3858 -25.66303,0 -46.46702,-17.18591 -46.46702,-38.3858 0,-21.19989 20.80399,-38.38579 46.46702,-38.38579 25.66302,0 46.46701,17.1859 46.46701,38.38579 z"
+         sodipodi:ry="38.385796"
+         sodipodi:rx="46.467018"
+         sodipodi:cy="395.76303"
+         sodipodi:cx="189.90868"
+         id="path2985-9-8"
+         style="fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path2987-4-2"
+         d="m 225.28432,417.98639 c 0,6.13681 -13.82369,20.20305 -35.86041,20.20305 -22.03673,0 -35.86042,-14.06624 -35.86042,-20.20305 0,-6.13681 13.82369,9.09137 35.86042,9.09137 22.03672,0 35.86041,-15.22818 35.86041,-9.09137 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path2994-8-9"
+         d="m 274.25642,395.76304 c 0,11.99467 -21.7398,23.73859 -34.85026,23.73859 -13.11046,0 -1.51523,-11.74392 -1.51523,-23.73859 0,-11.99468 -12.60538,-25.75889 0.50508,-25.75889 13.11046,0 35.86041,13.76421 35.86041,25.75889 z"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         sodipodi:nodetypes="sssss"
+         inkscape:connector-curvature="0"
+         id="path2994-1-8-1"
+         d="m 106.36864,394.75287 c 0,11.99467 21.7398,23.73859 34.85026,23.73859 13.11046,0 1.51523,-11.74392 1.51523,-23.73859 0,-11.99468 12.60538,-25.75889 -0.50508,-25.75889 -13.11046,0 -35.86041,13.76421 -35.86041,25.75889 z"
+         style="fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353000000000;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,102.32967,128.70984)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-2-3"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,130.61395,128.20476)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-4-4-5"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,87.177384,148.40781)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-8-5-9"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,144.75608,147.39766)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-82-5-8"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.44533409,0,0,0.52392249,117.48196,156.48903)"
+         d="m 172.73609,474.04984 c 0,4.74208 -4.5226,8.58629 -10.10152,8.58629 -5.57892,0 -10.10153,-3.84421 -10.10153,-8.58629 0,-4.74209 4.52261,-8.5863 10.10153,-8.5863 5.57892,0 10.10152,3.84421 10.10152,8.5863 z"
+         sodipodi:ry="8.586297"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="474.04984"
+         sodipodi:cx="162.63457"
+         id="path3054-0-9-45-1-4"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#002225;stroke-width:1.77165353;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+    </g>
+  </g>
+</svg>
