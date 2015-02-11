@@ -46,6 +46,10 @@ public class SC_ball : MonoBehaviour {
 			_brawler._T_brawler.renderer.sharedMaterial = _brawler._Mat_team_true_ball;
 		else
 			_brawler._T_brawler.renderer.sharedMaterial = _brawler._Mat_team_false_ball;
+
+		if (_brawler._b_is_KO)
+			renderer.material.color = new Color(0.4f, 0.4f, 0.4f, 1f);
+
 		_T_ball.localPosition = new Vector3(0f, -0.35f, -1f);
 	}
 
@@ -74,6 +78,9 @@ public class SC_ball : MonoBehaviour {
 				_brawler_with_the_ball._T_brawler.renderer.sharedMaterial = _brawler_with_the_ball._Mat_team_true;
 			else
 				_brawler_with_the_ball._T_brawler.renderer.sharedMaterial = _brawler_with_the_ball._Mat_team_false;
+
+			if (_brawler_with_the_ball._b_is_KO)
+				renderer.material.color = new Color(0.4f, 0.4f, 0.4f, 1f);
 
 			_brawler_with_the_ball._b_have_the_ball = false;
 			_brawler_with_the_ball = null;

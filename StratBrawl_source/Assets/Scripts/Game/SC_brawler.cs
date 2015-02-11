@@ -57,6 +57,8 @@ public class SC_brawler : MonoBehaviour {
 		} else {
 			renderer.material = _b_team ? _Mat_team_true : _Mat_team_false;
 		}
+		if (_b_is_KO)
+			renderer.material.color = new Color(0.4f, 0.4f, 0.4f, 1f);
 	}
 
 	public void HighLightBrawler(){		
