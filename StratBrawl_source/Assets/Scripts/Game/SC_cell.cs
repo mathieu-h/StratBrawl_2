@@ -10,6 +10,8 @@ public class SC_cell : MonoBehaviour {
 	public GameObject _GO_button;
 	[SerializeField]
 	public Image _IMG_action_display;
+	[SerializeField]
+	public Transform _T_graphic;
 
 	public GridPosition _position;
 	public Transform _T_cell { get; private set;}

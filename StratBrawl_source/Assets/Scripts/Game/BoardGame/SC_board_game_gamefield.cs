@@ -40,29 +40,29 @@ public partial class SC_board_game : MonoBehaviour {
 				GO_tmp.transform.parent = _T_root_cells_gameField;
 				_cells_gameField[i,j] = GO_tmp.GetComponent<SC_cell>();
 				_cells_gameField[i,j].Init(new GridPosition(i, j));
-				_cells_gameField[i,j].renderer.sharedMaterial = _Mat_gamefield_center;
+				_cells_gameField[i,j]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_center;
 			}
 		}
 
 		for(int i = 1; i < i_width - 1; i++)
 		{
-			_cells_gameField[i,0].renderer.sharedMaterial = _Mat_gamefield_border;
-			_cells_gameField[i,0]._T_cell.eulerAngles = Vector3.forward * 180;
-			_cells_gameField[i,i_height - 1].renderer.sharedMaterial = _Mat_gamefield_border;
+			_cells_gameField[i,0]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_border;
+			_cells_gameField[i,0]._T_graphic.eulerAngles = Vector3.forward * 180;
+			_cells_gameField[i,i_height - 1]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_border;
 		}
 
 		for(int i = 1; i < i_height - 1; i++)
 		{
-			_cells_gameField[0,i].renderer.sharedMaterial = _Mat_gamefield_score_zone_center;
-			_cells_gameField[i_width - 1,i].renderer.sharedMaterial = _Mat_gamefield_score_zone_center;
+			_cells_gameField[0,i]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_score_zone_center;
+			_cells_gameField[i_width - 1,i]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_score_zone_center;
 		}
 
-		_cells_gameField[0, 0].renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
-		_cells_gameField[0, 0]._T_cell.eulerAngles = Vector3.forward * 180;
-		_cells_gameField[i_width - 1, 0].renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
-		_cells_gameField[i_width - 1, 0]._T_cell.eulerAngles = Vector3.forward * 180;
-		_cells_gameField[0, i_height - 1].renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
-		_cells_gameField[i_width - 1, i_height - 1].renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
+		_cells_gameField[0, 0]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
+		_cells_gameField[0, 0]._T_graphic.eulerAngles = Vector3.forward * 180;
+		_cells_gameField[i_width - 1, 0]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
+		_cells_gameField[i_width - 1, 0]._T_graphic.eulerAngles = Vector3.forward * 180;
+		_cells_gameField[0, i_height - 1]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
+		_cells_gameField[i_width - 1, i_height - 1]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
 
 
 
