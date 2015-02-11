@@ -52,8 +52,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		// Test to check if it is the first time the method is called or not this turn, since only CloseMenuActionsTypes calls it
 		// without _brawler parameter
 		//if (_brawler != null) {			
-			_selected_brawler = _brawler;
-			_manager_ui.UpdateActionsSlotForBrawler(_selected_brawler);
+		_selected_brawler = _brawler;
+		_manager_ui.UpdateActionsSlotForBrawler(_selected_brawler);
 			//_board_game.SetActiveButtonsBrawlers (false, _brawler._b_team);
 		//}
 		// By default the first action is selected
@@ -74,7 +74,6 @@ public partial class SC_game_manager_client : MonoBehaviour {
 	
 	public void CloseMenuActionsSlots()
 	{
-		_selected_brawler = null;
 		_board_game.SetActiveButtonsBrawlers(true,_b_player_team);
 		_manager_ui.SetActiveButtonBackSlotsBrawler(false);
 		_manager_ui.SetActivePanelActionsSlotsBrawler(false);
@@ -82,7 +81,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_manager_ui.SetActiveButtonBackTypes(false);
 		_manager_ui.SetActivePanelActionsTypes(false);
 		SetActiveCellsForMoveAndTackle (false);
-		SetActiveCellsForPass (false);
+		SetActiveCellsForPass (false);		
+		_selected_brawler = null;
 	}
 
 	public void CloseMenuActionsTypes()
