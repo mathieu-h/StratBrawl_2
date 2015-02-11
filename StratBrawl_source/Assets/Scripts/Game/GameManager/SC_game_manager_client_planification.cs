@@ -62,7 +62,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 			//_board_game.SetActiveButtonsBrawlers (false, _brawler._b_team);
 		//}
 		// By default the first action is selected
-		_selected_slot = 0;
+		_selected_slot = 0;		
+		_manager_ui.HighlightSlot (_selected_slot);
 		OpenMenuActionsTypes ();
 	}
 
@@ -221,6 +222,7 @@ public partial class SC_game_manager_client : MonoBehaviour {
 
 	public void RegisterSelectedSlot(int selected_slot_p){
 		_selected_slot = selected_slot_p;
+		_manager_ui.HighlightSlot (_selected_slot);
 	}
 
 	private void AddActionToBrawlerArray(){
