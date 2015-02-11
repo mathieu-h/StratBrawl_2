@@ -27,7 +27,7 @@ public class SC_replay_menu : MonoBehaviour {
 			button.GetComponentInChildren<Text> ().text = names[i];
 			button.transform.SetParent (_GO_replay_container.transform, false);
 
-			button.transform.Translate(Vector3.down * 35 * i);
+			button.transform.Translate(Vector3.down * 50 * i);
 			//button.GetComponent<RectTransform>().position = Vector3.down * 20;
 			
 			button.onClick.AddListener (delegate {
