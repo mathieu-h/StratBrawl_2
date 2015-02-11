@@ -43,13 +43,22 @@ public partial class SC_game_manager_server {
 		
 		public void SetBrawlersPositionCurrentInTerrain(BrawlersData brawlers_data)
 		{
+			_i_position_brawlers_current = new int[_i_terrain_width, _i_terrain_height];
+			for (int i = 0; i < _i_terrain_width; i++)
+			{
+				for (int j = 0; j < _i_terrain_height; j++)
+				{
+					_i_position_brawlers_current[i, j] = -1;
+					_i_position_brawlers_prevision[i, j] = -1;
+				}
+			}
 			for (int i = 0; i < brawlers_data._i_nb_brawlers; i++)
 			{
 				_i_position_brawlers_current[brawlers_data._brawlers[i]._position_current._i_x, brawlers_data._brawlers[i]._position_current._i_y] = i;
 			}
 		}
 		
-		public void SetBrawlersPositionPrevisionInTerrain(BrawlerData brawler_data)
+		public void SetBrawlerPositionPrevisionInTerrain(BrawlerData brawler_data)
 		{
 			_i_position_brawlers_prevision[brawler_data._position_prevision._i_x, brawler_data._position_prevision._i_y] = brawler_data._i_index;
 		}
@@ -154,11 +163,11 @@ public partial class SC_game_manager_server {
 
 				f_distance_current = Vector2.Distance(position_start.ToVector2(), V2_current_position);
 
-				int i_brawler = GetPrevisionBrawlerIndexAtPosition(position_current);
+				int i_brawler = GetCurrentBrawlerIndexAtPosition(position_current);
 				if (i_brawler != -1)
 					return i_brawler;
 
-				i_brawler = GetCurrentBrawlerIndexAtPosition(position_current);
+				i_brawler = GetPrevisionBrawlerIndexAtPosition(position_current);
 				if (i_brawler != -1)
 					return i_brawler;
 			}
@@ -172,14 +181,7 @@ public partial class SC_game_manager_server {
 			{
 				for (int j = 0; j < _i_terrain_height; j++)
 				{
-					_i_position_brawlers_prevision[i, j] = -1;
-				}
-			}
-			_i_position_brawlers_current = _i_position_brawlers_prevision;
-			for (int i = 0; i < _i_terrain_width; i++)
-			{
-				for (int j = 0; j < _i_terrain_height; j++)
-				{
+					_i_position_brawlers_current[i, j] = _i_position_brawlers_prevision[i, j];
 					_i_position_brawlers_prevision[i, j] = -1;
 				}
 			}
@@ -339,7 +341,6 @@ public partial class SC_game_manager_server {
 		_ball_data = new BallData();
 
 		SetBrawlersEngagePositions(true);
-		_terrain_data.SetBrawlersPositionCurrentInTerrain(_brawlers_data);
 
 		_record = new List<SimulationResult[]>(_game_settings._settings._i_nb_turn_max);
 		_game_snap_start = SimulationDataToGameSnap();
@@ -381,9 +382,14 @@ public partial class SC_game_manager_server {
 					}
 				}
 				else
+				{
 					// If brawler is KO, set current position as prevision position
 					SetPrevisionPosition(_brawlers_data._brawlers[j], _brawlers_data._brawlers[j]._position_current);
+					_brawlers_data._brawlers[j]._actions[i].SetNone();
+				}
 			}
+
+			DebugPositions(_terrain_data);
 
 			// Loop in brawler to simulate pass action.
 			for (int j = 0; j < _brawlers_data._i_nb_brawlers; j++)
@@ -435,6 +441,8 @@ public partial class SC_game_manager_server {
 					GridPosition position_to_tackle = _brawlers_data._brawlers[j]._position_current + direction;
 					TackleBrawler(j, _terrain_data.GetPrevisionBrawlerIndexAtPosition(position_to_tackle));
 					TackleBrawler(j, _terrain_data.GetCurrentBrawlerIndexAtPosition(position_to_tackle));
+					Debug.Log (_terrain_data.GetPrevisionBrawlerIndexAtPosition(position_to_tackle));
+					Debug.Log (_terrain_data.GetCurrentBrawlerIndexAtPosition(position_to_tackle));
 				}
 			}
 
@@ -487,7 +495,7 @@ public partial class SC_game_manager_server {
 		if (!_terrain_data.IsInsideTheTerrain(position))
 		{
 			brawler._position_prevision = brawler._position_current;
-			_terrain_data.SetBrawlersPositionPrevisionInTerrain(brawler);
+			_terrain_data.SetBrawlerPositionPrevisionInTerrain(brawler);
 			return;
 		}
 
@@ -500,7 +508,7 @@ public partial class SC_game_manager_server {
 			SetPrevisionPosition(_brawlers_data._brawlers[i_brawler_prevision_at_current_position], _brawlers_data._brawlers[i_brawler_prevision_at_current_position]._position_current);
 			
 			brawler._position_prevision = brawler._position_current;
-			_terrain_data.SetBrawlersPositionPrevisionInTerrain(brawler);
+			_terrain_data.SetBrawlerPositionPrevisionInTerrain(brawler);
 			return;
 		}
 
@@ -511,12 +519,12 @@ public partial class SC_game_manager_server {
 			SetPrevisionPosition(_brawlers_data._brawlers[i_brawler_at_prevision_position], _brawlers_data._brawlers[i_brawler_at_prevision_position]._position_current);
 
 			brawler._position_prevision = brawler._position_current;
-			_terrain_data.SetBrawlersPositionPrevisionInTerrain(brawler);
+			_terrain_data.SetBrawlerPositionPrevisionInTerrain(brawler);
 			return;
 		}
 
 		brawler._position_prevision = position;
-		_terrain_data.SetBrawlersPositionPrevisionInTerrain(brawler);
+		_terrain_data.SetBrawlerPositionPrevisionInTerrain(brawler);
 	}
 
 	private void TackleBrawler(int i_brawler_from, int i_brawler_to_tackle)
@@ -563,6 +571,8 @@ public partial class SC_game_manager_server {
 			_ball_data._i_brawler_with_the_ball_current = _brawlers_data._i_nb_brawler_per_team;
 			_ball_data._i_brawler_with_the_ball_prevision = _brawlers_data._i_nb_brawler_per_team;
 		}
+
+		_terrain_data.SetBrawlersPositionCurrentInTerrain(_brawlers_data);
 	}
 
 	private GameSnap SimulationDataToGameSnap()
@@ -585,5 +595,26 @@ public partial class SC_game_manager_server {
 		game_snap._cell_with_the_ball = _ball_data._position_on_ground_current;
 
 		return game_snap;
+	}
+
+
+	private void DebugPositions(TerrainData _terrain)
+	{
+		for (int i = 0; i < _terrain._i_terrain_height; ++i)
+		{
+			string s_positions = "";
+			for (int j = 0; j < _terrain._i_terrain_width; ++j)
+			{
+				s_positions += " | " + _terrain._i_position_brawlers_current[j,i];
+			}
+			s_positions += "          ";
+			for (int j = 0; j < _terrain._i_terrain_width; ++j)
+			{
+				s_positions += " | " + _terrain._i_position_brawlers_prevision[j,i];
+			}
+			Debug.Log(s_positions);
+		}
+		Debug.Log(" " );
+		Debug.Log(" " );
 	}
 }

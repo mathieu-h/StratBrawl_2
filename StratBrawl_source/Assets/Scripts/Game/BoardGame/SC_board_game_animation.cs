@@ -52,7 +52,7 @@ public partial class SC_board_game : MonoBehaviour {
 			for (int j = 0; j < simulation_results[i]._brawlers_simulation_result.Length; j++)
 			{
 				if (simulation_results[i]._brawlers_simulation_result[j]._b_is_KO)
-					_brawlers[j].renderer.material.color = new Color(0.5f, 0.5f, 0.5f, 1f);
+					_brawlers[j].renderer.material.color = new Color(0.4f, 0.4f, 0.4f, 1f);
 			}
 
 			yield return new WaitForSeconds(_f_duration_animation * 0.5f);
