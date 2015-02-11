@@ -17,7 +17,8 @@ public class SC_replay_menu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
-		string[] names = SC_replay_files_manager.GetReplaysNames ();
+		//string[] names = SC_replay_files_manager.GetReplaysNames ();
+		string[] names = {"BLA1", "BLA2","BLA3"};
 		for (int i = 0; i < names.Length; ++i)
 		{
 			GameObject button_obj = Instantiate (_GO_row_button) as GameObject;
@@ -26,11 +27,12 @@ public class SC_replay_menu : MonoBehaviour {
 			button.GetComponentInChildren<Text> ().text = names[i];
 			button.transform.SetParent (_GO_replay_container.transform, false);
 
-			button.transform.Translate(Vector3.down * 30 * i);
+			button.transform.Translate(Vector3.down * 35 * i);
 			//button.GetComponent<RectTransform>().position = Vector3.down * 20;
 			
 			button.onClick.AddListener (delegate {
-				NextPanel (names[i]);
+				Text name = button.GetComponentsInChildren<Text>()[0];
+				NextPanel (name.text);
 			});
 		}
 
