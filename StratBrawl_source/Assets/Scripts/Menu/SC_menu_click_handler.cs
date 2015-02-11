@@ -21,13 +21,22 @@ public class SC_menu_click_handler: MonoBehaviour
 				panelToShow.SetActive (true);
 		}
 
+		/// SUMMARY : The user click on the Replay button. We display the replay panel.
+		/// PARAMETERS : The next panel.
+		/// RETURN : Void.
+		public void ClickReplayButton (GameObject panelToShow)
+		{
+			_GO_current_panel.SetActive (false);
+			panelToShow.SetActive (true);
+		}
+
 		/// SUMMARY : The user click on the play button. We display the option panel.
 		/// PARAMETERS : The next panel.
 		/// RETURN : Void.
 		public void ClickOptionsButton (GameObject panelToShow)
 		{
 				_GO_current_panel.SetActive (false);
-				panelToShow.SetActive (false);
+				panelToShow.SetActive (true);
 		}
 
 		/// SUMMARY : The user click on the play button. We quit the game;
