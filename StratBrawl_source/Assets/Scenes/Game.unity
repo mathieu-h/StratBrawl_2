@@ -1556,7 +1556,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &537592830
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2461,6 +2461,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: ab98f18cc11364945aecf190f2129df2,
         type: 3}
+    - target: {fileID: 11400000, guid: 6a1f14dad6140fd4ea40f100096ef987, type: 2}
+      propertyPath: _Spr_ui_tackle
+      value: 
+      objectReference: {fileID: 21300000, guid: 2c721563957990b45b3be89d7b55f97c,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a1f14dad6140fd4ea40f100096ef987, type: 2}
   m_RootGameObject: {fileID: 1349713893}
@@ -3364,6 +3369,7 @@ MonoBehaviour:
   _selected_brawler: {fileID: 0}
   _Spr_ui_arrow: {fileID: 21300000, guid: ab98f18cc11364945aecf190f2129df2, type: 3}
   _Spr_ui_ball: {fileID: 21300000, guid: 52b363257d8640c42bfd1aed7b416cc5, type: 3}
+  _Spr_ui_tackle: {fileID: 21300000, guid: 2c721563957990b45b3be89d7b55f97c, type: 3}
 --- !u!148 &1349713896
 NetworkView:
   m_ObjectHideFlags: 0

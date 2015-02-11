@@ -15,7 +15,9 @@ public partial class SC_game_manager_client : MonoBehaviour {
 	[SerializeField]
 	private Sprite _Spr_ui_arrow;
 	[SerializeField]
-	private Sprite _Spr_ui_ball;
+	private Sprite _Spr_ui_ball;	
+	[SerializeField]
+	private Sprite _Spr_ui_tackle;
 
 	private Image[,] _img_brawler_actions_cells;
 
@@ -298,7 +300,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 			}
 			if (action._action_type == ActionType.Move) {
 				image.sprite = _Spr_ui_arrow;
-				image.color = new Color (255, 255, 255, 255);
+				image.color = new Color (255, 255, 255, 255);				
+				image.rectTransform.localScale = new Vector3(1f,1f,1f);
 				switch (action._direction_move) {
 					case Direction.Right:				
 							image.rectTransform.Rotate (new Vector3 (0, 0, 180));
@@ -313,15 +316,19 @@ public partial class SC_game_manager_client : MonoBehaviour {
 							break;
 				}
 			}else if (action._action_type == ActionType.Tackle) {
-				image.sprite = _Spr_ui_arrow;
-				image.color = new Color (0, 0, 0, 255);
+				//image.sprite = _Spr_ui_arrow;
+				image.sprite = _Spr_ui_tackle;
+				image.color = new Color (255, 255, 255, 255);
+				image.rectTransform.localScale = new Vector3(0.7f,0.7f,1f);
+				//image.color = new Color (0, 0, 0, 255);
+				/*
 				switch (action._direction_move) {
-				case Direction.Right:				
-					image.rectTransform.Rotate (new Vector3 (0, 0, 180));
+				case Direction.Left:				
+					image.rectTransform.Rotate (new Vector3 (0, 0, 90));
 					//action._selected_cell._IMG_action_display.rectTransform.
 					break;
 				case Direction.Down:
-					image.rectTransform.Rotate (new Vector3 (0, 0, 90));
+					image.rectTransform.Rotate (new Vector3 (0, 0, 180));
 					break;
 				case Direction.Up:
 					image.rectTransform.Rotate (new Vector3 (0, 0, -90));
@@ -329,7 +336,9 @@ public partial class SC_game_manager_client : MonoBehaviour {
 				default:
 					break;
 				}
+				*/
 			}else if (action._action_type == ActionType.Pass) {				
+					image.rectTransform.localScale = new Vector3(1f,1f,1f);
 					image.sprite = _Spr_ui_ball;
 					image.color = new Color (255, 255, 255, 255);
 			} 
