@@ -38,4 +38,12 @@ public class SC_create_game_click_handler : MonoBehaviour
 				MasterServer.port = 23466;
 				MasterServer.RegisterHost ("1V1", gameName, "Test Comment");
 		}
+
+		/// SUMMARY : The user click on the back button. We go back.
+		/// RETURN : Void.
+		public void ClickBackButton (GameObject panelToShow)
+		{
+				_GO_current_panel.SetActive (false);
+				panelToShow.SetActive (true);
+		}
 }

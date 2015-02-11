@@ -79,7 +79,7 @@ public class SC_play_menu_click_handler : MonoBehaviour
 								});
 
 								_games_button.Add (button_obj);
-								button.transform.Translate (new Vector3 (0, 2, 0));
+								button.transform.Translate (Vector3.down * 30 * i);
 
 				
 								i++;
@@ -115,5 +115,13 @@ public class SC_play_menu_click_handler : MonoBehaviour
 				_GO_lobby_panel.SetActive (true);
 				_TE_lobby_title.text = server.gameName;
 				Network.Connect (server);
+		}
+
+		/// SUMMARY : The user click on the back button. We go back.
+		/// RETURN : Void.
+		public void ClickBackButton(GameObject panelToShow)
+		{
+			_GO_current_panel.SetActive (false);
+			panelToShow.SetActive (true);
 		}
 }
