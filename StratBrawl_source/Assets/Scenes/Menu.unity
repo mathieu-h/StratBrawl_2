@@ -2831,6 +2831,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 490cbc6c75d884fe1a0246e92f4f1c99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _GO_current_panel: {fileID: 1392243555}
+  _GO_row_button: {fileID: 100000, guid: 242d91d506f2e4429841ca664db5457d, type: 2}
+  _GO_replay_container: {fileID: 1202986758}
 --- !u!95 &1201359041
 Animator:
   serializedVersion: 3
@@ -4859,8 +4862,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: .863000035}
   m_AnchorMax: {x: 1, y: .863000035}
-  m_AnchoredPosition: {x: 5, y: -151}
-  m_SizeDelta: {x: -196, y: 303}
+  m_AnchoredPosition: {x: 7, y: -189}
+  m_SizeDelta: {x: -299, y: 378}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &2048228351
 MonoBehaviour:

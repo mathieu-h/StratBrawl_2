@@ -79,7 +79,7 @@ public class SC_play_menu_click_handler : MonoBehaviour
 								});
 
 								_games_button.Add (button_obj);
-								//button.transform.Translate (new Vector3 (0, 2, 0));
+								button.transform.Translate (new Vector3 (0, 2, 0));
 
 				
 								i++;
@@ -107,7 +107,7 @@ public class SC_play_menu_click_handler : MonoBehaviour
 		}
 
 		/// SUMMARY : The user want to join a server
-		/// PARAMETERS : None.
+		/// PARAMETERS : The server Data
 		/// RETURN : Void.
 		void NextPanel (HostData server)
 		{
