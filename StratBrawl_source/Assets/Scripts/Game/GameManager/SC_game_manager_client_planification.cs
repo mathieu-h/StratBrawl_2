@@ -261,7 +261,11 @@ public partial class SC_game_manager_client : MonoBehaviour {
 	}
 
 	public void SwitchToNextSlot(){
-		if(_selected_slot != 2) _selected_slot += 1;
+		if (_selected_slot != 2) {
+			_selected_slot += 1;
+		} else {
+			_selected_slot = 0;			
+		}
 		_manager_ui.HighlightSlot (_selected_slot);
 	}
 
