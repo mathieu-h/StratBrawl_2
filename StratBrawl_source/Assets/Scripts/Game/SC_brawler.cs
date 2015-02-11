@@ -51,12 +51,20 @@ public class SC_brawler : MonoBehaviour {
 		InitActions(3);
 	}
 
-	public void ResetMat(){		
-		renderer.material = _b_team ? _Mat_team_true : _Mat_team_false;
+	public void ResetMat(){
+		if (_b_have_the_ball) {			
+			renderer.material = _b_team ? _Mat_team_true_ball : _Mat_team_false_ball;
+		} else {
+			renderer.material = _b_team ? _Mat_team_true : _Mat_team_false;
+		}
 	}
 
 	public void HighLightBrawler(){		
-		renderer.material = _Mat_highligth;
+		if (_b_have_the_ball) {			
+			renderer.material = _Mat_highligth_ball;
+		} else {
+			renderer.material = _Mat_highligth;
+		}
 	}
 
 	/// SUMMARY : Init Actions array.
