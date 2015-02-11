@@ -38,6 +38,19 @@ public class SC_play_menu_click_handler : MonoBehaviour
 				panel_to_show.SetActive (true);
 		}
 
+		/// SUMMARY : The user click on the join button. The next panel is displayed.
+		/// PARAMETERS : The next panel.
+		/// RETURN : Void.
+		public void ClickJoinGameButton (InputField IPInputField)
+		{
+			if(!IPInputField.text.Equals("")){
+				_GO_current_panel.SetActive (false);
+				_GO_lobby_panel.SetActive (true);
+				Network.Connect(IPInputField.text, 25002);
+			}
+		}
+
+
 
 		/// SUMMARY : Retrieve master server hosts list
 		/// PARAMETERS : None.
