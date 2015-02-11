@@ -275,6 +275,9 @@ public partial class SC_game_manager_server {
 			}
 			else if (_i_KO_round_remaining > 0)
 				_i_KO_round_remaining--;
+
+			if (_i_KO_round_remaining == 0)
+				_b_is_KO_current = false;
 		}
 	}
 	
@@ -542,6 +545,10 @@ public partial class SC_game_manager_server {
 				_position = _terrain_data.GetSymmetricPosition(_position);
 			_brawlers_data._brawlers[i]._position_current = _position;
 			_brawlers_data._brawlers[i]._position_prevision = _position;
+			_brawlers_data._brawlers[i]._b_is_KO_current = false;
+			_brawlers_data._brawlers[i]._b_is_KO_prevision = false;
+			_brawlers_data._brawlers[i]._b_have_the_ball_current = false;
+			_brawlers_data._brawlers[i]._b_have_the_ball_prevision = false;
 		}
 
 		_ball_data._ball_status_current = BallStatus.OnBrawler;

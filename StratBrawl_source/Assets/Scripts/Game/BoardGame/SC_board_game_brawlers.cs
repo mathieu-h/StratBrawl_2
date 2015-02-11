@@ -60,6 +60,8 @@ public partial class SC_board_game : MonoBehaviour {
 			if (!_brawlers[i]._b_team)
 				_position = GetSymmetricPosition(_position);
 			_brawlers[i].SetPosition(_position);
+			_brawlers[i]._b_is_KO = false;
+			_brawlers[i].renderer.material.color = new Color(1f, 1f, 1f, 1f);
 		}
 	}
 

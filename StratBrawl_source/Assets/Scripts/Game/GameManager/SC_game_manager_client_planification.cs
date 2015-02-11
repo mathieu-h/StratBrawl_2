@@ -51,6 +51,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_manager_ui.SetActiveButtonEndTurn (false);
 		if (_selected_brawler != null) {
 			_selected_brawler.ResetMat();
+			SetActiveCellsForMoveAndTackle (false);
+			SetActiveCellsForPass (false);
 		}
 
 		// Test to check if it is the first time the method is called or not this turn, since only CloseMenuActionsTypes calls it
@@ -62,7 +64,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 			//_board_game.SetActiveButtonsBrawlers (false, _brawler._b_team);
 		//}
 		// By default the first action is selected
-		_selected_slot = 0;
+		_selected_slot = 0;		
+		_manager_ui.HighlightSlot (_selected_slot);
 		OpenMenuActionsTypes ();
 	}
 
@@ -91,11 +94,6 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_selected_brawler = null;
 	}
 
-	public void CloseMenuActionsTypes()
-	{
-
-		//OpenMenuActionsSlots ();
-	}
 
 	
 	public void SetActiveCellsForMoveAndTackle(bool active)
@@ -221,6 +219,7 @@ public partial class SC_game_manager_client : MonoBehaviour {
 
 	public void RegisterSelectedSlot(int selected_slot_p){
 		_selected_slot = selected_slot_p;
+		_manager_ui.HighlightSlot (_selected_slot);
 	}
 
 	private void AddActionToBrawlerArray(){
@@ -256,15 +255,21 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_img_brawler_actions_cells[_selected_brawler._i_index_in_team, _selected_slot] = selected_cell._IMG_action_display;
 		
 		// TODO optimisation en mettant juste tout les cells à false?
+		// go automatically to the next slot
 		SetActiveCellsForMoveAndTackle (false);
 		SetActiveCellsForPass (false);
 	}
 
+	public void SwitchToNextSlot(){
+		if(_selected_slot != 2) _selected_slot += 1;
+		_manager_ui.HighlightSlot (_selected_slot);
+	}
+
 	public void UpdateActionSlotText(){	
-		_manager_ui.SetActionSlotText (_selected_action.ToString (), _selected_slot);
-		CloseMenuActionsTypes ();			
+		_manager_ui.SetActionSlotText (_selected_action.ToString (), _selected_slot);	
 		AddActionToBrawlerArray ();	
-		DisplayChosenActionsOnField ();	
+		DisplayChosenActionsOnField ();			
+		SwitchToNextSlot ();
 	}
 
 	/// SUMMARY : Register the type of action chose by the player to display the right elements ( arrow if it is a move, nothing if it

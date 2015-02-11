@@ -32,6 +32,14 @@ public class SC_manager_ui : MonoBehaviour {
 	private Text _t_button_slot_3;
 
 	[SerializeField]
+	private Button _BU_button_slot_1;
+	[SerializeField]
+	private Button _BU_button_slot_2;
+	[SerializeField]
+	private Button _BU_button_slot_3;
+
+
+	[SerializeField]
 	private GameObject _GO_button_end_turn;
 
 	[SerializeField]
@@ -41,11 +49,35 @@ public class SC_manager_ui : MonoBehaviour {
 
 	public void Awake()
 	{
-		SetActiveButtonBackSlotsBrawler(false);
+		//SetActiveButtonBackSlotsBrawler(false);
 		SetActiveButtonBackTypes(false);
 		SetActivePanelActionsSlotsBrawler(false);
 		SetActivePanelActionsTypes(false);
 	}
+
+	public void HighlightSlot(int selected_slot)
+	{	
+		switch (selected_slot) {
+			case 0:					
+					_BU_button_slot_1.image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);
+					_BU_button_slot_2.image.color = new Color (1,1,1,1);
+					_BU_button_slot_3.image.color = new Color (1,1,1,1);
+					break;
+			case 1:
+					_BU_button_slot_2.image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);
+					_BU_button_slot_1.image.color = new Color (1,1,1,1);
+					_BU_button_slot_3.image.color = new Color (1,1,1,1);
+					break;
+			case 2:			
+					_BU_button_slot_3.image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);
+					_BU_button_slot_2.image.color = new Color (1,1,1,1);
+					_BU_button_slot_1.image.color = new Color (1,1,1,1);
+					break;
+			default:
+					break;
+		}
+	}
+
 
 	public void SetActiveButtonBackSlotsBrawler(bool b_active)
 	{
