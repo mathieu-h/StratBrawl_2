@@ -135,7 +135,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Jouer
+  m_Text: Play
 --- !u!222 &1338956
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -538,7 +538,7 @@ RectTransform:
   m_RootOrder: 3
   m_AnchorMin: {x: .669842064, y: .239573821}
   m_AnchorMax: {x: .669842064, y: .239573821}
-  m_AnchoredPosition: {x: 13, y: -3}
+  m_AnchoredPosition: {x: -22, y: -3}
   m_SizeDelta: {x: 178, y: 43}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &246699757
@@ -706,7 +706,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -202
+      value: -221
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_SizeDelta.x
@@ -742,7 +742,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_Text
-      value: "Cr\xE9er la partie"
+      value: Create this game
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_FontData.m_FontSize
@@ -844,7 +844,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Cr\xE9er la partie"
+  m_Text: Create this game
 --- !u!222 &336810704
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -903,7 +903,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: a88245f4e49574dd9a6e6adf538b7882, type: 3}
-    m_FontSize: 37
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -1119,6 +1119,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: .99999994
       objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
+      propertyPath: m_Text
+      value: Create a game
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
   m_RootGameObject: {fileID: 1619415474}
@@ -1203,6 +1207,10 @@ Prefab:
       propertyPath: m_Pivot.y
       value: .499999672
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
+      propertyPath: m_Text
+      value: Create a game
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
   m_RootGameObject: {fileID: 469573492}
@@ -1269,7 +1277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'En attente d''un autre joueur..
+  m_Text: 'Waiting for an other player ...
 
 '
 --- !u!222 &432855221
@@ -1360,7 +1368,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
       propertyPath: m_Text
-      value: 'Ma partie
+      value: 'My Game
 
 '
       objectReference: {fileID: 0}
@@ -1450,7 +1458,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
       propertyPath: m_Text
-      value: 'Parties en attente
+      value: 'Waiting games
 
 '
       objectReference: {fileID: 0}
@@ -1524,7 +1532,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Cr\xE9er une partie\n"
+  m_Text: Create a game
 --- !u!222 &469573495
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1634,10 +1642,10 @@ RectTransform:
   - {fileID: 2074342937}
   m_Father: {fileID: 2137086931}
   m_RootOrder: 5
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -383.359985, y: 44}
-  m_SizeDelta: {x: -640.72998, y: 88}
+  m_AnchorMin: {x: 0, y: .0804234818}
+  m_AnchorMax: {x: 0, y: .0804234818}
+  m_AnchoredPosition: {x: 54, y: -2}
+  m_SizeDelta: {x: 233.27002, y: 89}
   m_Pivot: {x: .5, y: .5}
 --- !u!95 &572086101
 Animator:
@@ -1772,8 +1780,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: .863000035}
   m_AnchorMax: {x: 1, y: .863000035}
-  m_AnchoredPosition: {x: 5, y: -151}
-  m_SizeDelta: {x: -196, y: 303}
+  m_AnchoredPosition: {x: 10, y: -151}
+  m_SizeDelta: {x: -267, y: 303}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &592841925
 MonoBehaviour:
@@ -2087,7 +2095,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 13
+      value: -22
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -2175,7 +2183,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_Text
-      value: Rejoindre
+      value: Join
       objectReference: {fileID: 0}
     - target: {fileID: 11400006, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_FontData.m_FontSize
@@ -2239,7 +2247,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -505}
+  m_AnchoredPosition: {x: 0, y: -386}
   m_SizeDelta: {x: 0, y: 58}
   m_Pivot: {x: .5, y: .499999672}
 --- !u!114 &671448902
@@ -2340,7 +2348,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Quitter
+  m_Text: Quit
 --- !u!222 &705348889
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2409,7 +2417,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Ma partie
+  m_Text: 'My Game
 
 '
 --- !u!222 &718637718
@@ -2820,7 +2828,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Rejoindre
+  m_Text: Join
 --- !u!222 &761489886
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2917,15 +2925,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: c000973261871488daf375bfab2ed221, type: 2}
       propertyPath: m_Text
-      value: Nom de  partie
+      value: Game name
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: c000973261871488daf375bfab2ed221, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 11400002, guid: c000973261871488daf375bfab2ed221, type: 2}
       propertyPath: m_FontData.m_FontSize
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 22400002, guid: c000973261871488daf375bfab2ed221, type: 2}
       propertyPath: m_AnchoredPosition.y
@@ -2950,6 +2958,22 @@ Prefab:
     - target: {fileID: 22400000, guid: c000973261871488daf375bfab2ed221, type: 2}
       propertyPath: m_AnchoredPosition.x
       value: -9.60000038
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400004, guid: c000973261871488daf375bfab2ed221, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400004, guid: c000973261871488daf375bfab2ed221, type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400004, guid: c000973261871488daf375bfab2ed221, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22400004, guid: c000973261871488daf375bfab2ed221, type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 161
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c000973261871488daf375bfab2ed221, type: 2}
@@ -3305,7 +3329,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Parties en attente
+  m_Text: 'Waiting games
 
 '
 --- !u!222 &942987160
@@ -3396,7 +3420,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
       propertyPath: m_Text
-      value: 'En attente d''un autre joueur..
+      value: 'Waiting for an other player ...
 
 '
       objectReference: {fileID: 0}
@@ -3665,8 +3689,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1, y: -194}
-  m_SizeDelta: {x: -142, y: 389}
+  m_AnchoredPosition: {x: 2, y: -194}
+  m_SizeDelta: {x: 40, y: 389}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1202986760
 MonoBehaviour:
@@ -3746,7 +3770,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: .501960814}
   m_FontData:
     m_Font: {fileID: 12800000, guid: a88245f4e49574dd9a6e6adf538b7882, type: 3}
-    m_FontSize: 16
+    m_FontSize: 20
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 10
@@ -3756,7 +3780,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nom de  partie
+  m_Text: Game name
 --- !u!222 &1229132451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3799,8 +3823,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 1, y: -3}
+  m_SizeDelta: {x: 161, y: 36}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1277493462
 MonoBehaviour:
@@ -4020,7 +4044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Cr\xE9er une partie"
+  m_Text: Create a game
 --- !u!222 &1348823914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4079,7 +4103,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FontData:
     m_Font: {fileID: 12800000, guid: a88245f4e49574dd9a6e6adf538b7882, type: 3}
-    m_FontSize: 16
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -4589,7 +4613,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -505
+      value: -386
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
       propertyPath: m_SizeDelta.x
@@ -4834,7 +4858,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -202}
+  m_AnchoredPosition: {x: 0, y: -221}
   m_SizeDelta: {x: -2, y: 42}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1633565259
@@ -5104,6 +5128,10 @@ Prefab:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4cc3ea7e283dc47deaa86b339221fa2f, type: 2}
   m_RootGameObject: {fileID: 347252923}
@@ -5140,8 +5168,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1, y: -194}
-  m_SizeDelta: {x: -142, y: 389}
+  m_AnchoredPosition: {x: 5.7220459e-06, y: -194}
+  m_SizeDelta: {x: 0, y: 389}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1754439819
 MonoBehaviour:
@@ -5639,19 +5667,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -383.359985
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 44
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_SizeDelta.x
-      value: -640.72998
+      value: 233.27002
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 88
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchorMin.x
@@ -5659,15 +5687,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: .0804234818
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: .0804234818
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: 048a02b9db8b541f889a9441c8a4bf99, type: 2}
       propertyPath: m_Pivot.x
@@ -5806,8 +5834,8 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: .863000035}
   m_AnchorMax: {x: 1, y: .863000035}
-  m_AnchoredPosition: {x: 7, y: -189}
-  m_SizeDelta: {x: -299, y: 378}
+  m_AnchoredPosition: {x: -3, y: -189}
+  m_SizeDelta: {x: -137, y: 378}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &2048228351
 MonoBehaviour:
