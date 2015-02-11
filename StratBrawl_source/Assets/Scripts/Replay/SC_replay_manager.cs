@@ -11,7 +11,6 @@ public class SC_replay_manager : MonoBehaviour {
 
 	void Start ()
 	{
-		_replay = SC_replay_files_manager.LoadReplay("replay_2015-02-06_17-42-43");
 		_board_game.Init(_replay._game_settings);
 		_board_game.SetGameFromSnap(_replay._start_game_snap);
 		StartCoroutine(PlayRecord(_replay._record));

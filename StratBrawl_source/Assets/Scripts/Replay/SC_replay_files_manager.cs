@@ -55,7 +55,7 @@ public class SC_replay_files_manager : MonoBehaviour {
 	static public Replay LoadReplay(string s_file_name)
 	{
 		InitDirectory();
-
+		Debug.Log(s_file_name);
 		string s_path = _s_directory_name + "/" + s_file_name;
 		byte[] data_replay = File.ReadAllBytes(s_path);
 		BinaryFormatter _BF = new BinaryFormatter();
