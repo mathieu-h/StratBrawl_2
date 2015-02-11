@@ -17,8 +17,8 @@ public class SC_replay_menu : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	
-		//string[] names = SC_replay_files_manager.GetReplaysNames ();
-		string[] names = {"BLA1", "BLA2","BLA3"};
+		string[] names = SC_replay_files_manager.GetReplaysNames ();
+		//string[] names = {"BLA1", "BLA2","BLA3"};
 		for (int i = 0; i < names.Length; ++i)
 		{
 			GameObject button_obj = Instantiate (_GO_row_button) as GameObject;

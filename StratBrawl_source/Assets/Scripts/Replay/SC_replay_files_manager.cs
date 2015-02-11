@@ -37,11 +37,12 @@ public class SC_replay_files_manager : MonoBehaviour {
 	{
 		InitDirectory();
 
-		string[] s_files_name = Directory.GetFiles(_s_directory_name, ".sbreplay");
+		char[] char_split = new char[] {'/', '\\'};
+		string[] s_files_name = Directory.GetFiles(_s_directory_name);
 		for (int i = 0; i < s_files_name.Length; ++i)
 		{
-			s_files_name[i] = s_files_name[i].Replace(_s_directory_name + "/", string.Empty);
-			s_files_name[i] = s_files_name[i].Replace(".sbreplay", string.Empty);
+			string[] s_tmp = s_files_name[i].Split (char_split);
+			s_files_name[i] = s_tmp[s_tmp.Length - 1];
 		}
 
 		return s_files_name;
@@ -54,8 +55,8 @@ public class SC_replay_files_manager : MonoBehaviour {
 	static public Replay LoadReplay(string s_file_name)
 	{
 		InitDirectory();
-
-		string s_path = _s_directory_name + "/" + s_file_name + ".sbreplay";
+		Debug.Log(s_file_name);
+		string s_path = _s_directory_name + "/" + s_file_name;
 		byte[] data_replay = File.ReadAllBytes(s_path);
 		BinaryFormatter _BF = new BinaryFormatter();
 		MemoryStream _MS = new MemoryStream();
