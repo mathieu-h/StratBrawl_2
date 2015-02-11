@@ -46,7 +46,7 @@ public class SC_play_menu_click_handler : MonoBehaviour
 			if(!IPInputField.text.Equals("")){
 				_GO_current_panel.SetActive (false);
 				_GO_lobby_panel.SetActive (true);
-				Network.Connect(IPInputField.text, 25002);
+				Network.Connect(IPInputField.text, 1119);
 			}
 		}
 
