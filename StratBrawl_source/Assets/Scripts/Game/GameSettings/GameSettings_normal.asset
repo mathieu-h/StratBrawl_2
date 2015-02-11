@@ -15,7 +15,7 @@ MonoBehaviour:
   _settings:
     i_game_field_width: 12
     i_game_field_height: 7
-    i_nb_turn_max: 5
+    i_nb_turn_max: 20
     i_nb_score_max: 5
     i_planification_time: 60
     i_nb_brawlers_per_team: 5

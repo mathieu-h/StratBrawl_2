@@ -474,8 +474,6 @@ public partial class SC_game_manager_server {
 				SetBrawlersEngagePositions(!_b_team_who_scores);
 				break;
 			}
-			Debug.Log ("Server : " + _ball_data._i_brawler_with_the_ball_current);
-
 		}
 
 		_record.Add(simulation_result);

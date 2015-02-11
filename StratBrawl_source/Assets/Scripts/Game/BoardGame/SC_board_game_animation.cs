@@ -78,8 +78,6 @@ public partial class SC_board_game : MonoBehaviour {
 				break;
 			}
 
-			Debug.Log ("Client : " + simulation_results[i]._ball_simulation_result._i_brawler_with_the_ball);
-
 			// Wait between two series of actions
 			yield return new WaitForSeconds(_f_duration_animation * 0.5f);
 			
