@@ -29,6 +29,10 @@ public class SC_brawler : MonoBehaviour {
 	public Material _Mat_team_true_ball;
 	[SerializeField]
 	public Material _Mat_team_false_ball;
+	[SerializeField]
+	public Material _Mat_highligth_ball;
+	[SerializeField]
+	public Material _Mat_highligth;
 
 
 	/// SUMMARY : Initialize the brawler.
@@ -45,6 +49,14 @@ public class SC_brawler : MonoBehaviour {
 		//sprite
 		_GO_button_brawler.SetActive(false);
 		InitActions(3);
+	}
+
+	public void ResetMat(){		
+		renderer.material = _b_team ? _Mat_team_true : _Mat_team_false;
+	}
+
+	public void HighLightBrawler(){		
+		renderer.material = _Mat_highligth;
 	}
 
 	/// SUMMARY : Init Actions array.

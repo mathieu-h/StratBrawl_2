@@ -49,11 +49,16 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_manager_ui.SetActivePanelActionsSlotsBrawler(true);
 		_manager_ui.SetActiveButtonBackSlotsBrawler(true);
 		_manager_ui.SetActiveButtonEndTurn (false);
+		if (_selected_brawler != null) {
+			_selected_brawler.ResetMat();
+		}
+
 		// Test to check if it is the first time the method is called or not this turn, since only CloseMenuActionsTypes calls it
 		// without _brawler parameter
 		//if (_brawler != null) {			
 		_selected_brawler = _brawler;
 		_manager_ui.UpdateActionsSlotForBrawler(_selected_brawler);
+		_brawler.HighLightBrawler();
 			//_board_game.SetActiveButtonsBrawlers (false, _brawler._b_team);
 		//}
 		// By default the first action is selected
@@ -81,7 +86,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_manager_ui.SetActiveButtonBackTypes(false);
 		_manager_ui.SetActivePanelActionsTypes(false);
 		SetActiveCellsForMoveAndTackle (false);
-		SetActiveCellsForPass (false);		
+		SetActiveCellsForPass (false);
+		_selected_brawler.ResetMat();
 		_selected_brawler = null;
 	}
 

@@ -117,6 +117,8 @@ MonoBehaviour:
   _Mat_team_true_ball: {fileID: 2100000, guid: 3c15ceca76786b3408bfb8e48adff5f0, type: 2}
   _Mat_team_false_ball: {fileID: 2100000, guid: 212af5217d85f8b48adc1c8361426f98,
     type: 2}
+  _Mat_highligth_ball: {fileID: 2100000, guid: f0b9db6a8299eae4fbf897191e338c1f, type: 2}
+  _Mat_highligth: {fileID: 2100000, guid: 12d0387edfde38046b441901b125041f, type: 2}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
