@@ -19,10 +19,13 @@ public class SC_replay_manager : MonoBehaviour {
 
 	private IEnumerator PlayRecord(SimulationResult[][] _record)
 	{
+		yield return new WaitForSeconds(2f);
 		for (int i = 0; i < _record.GetLength(0); ++i)
 		{
 			yield return StartCoroutine(_board_game.Animate(_record[i]));
 			yield return new WaitForSeconds(1f);
 		}
+		yield return new WaitForSeconds(2f);
+		Application.LoadLevel("Menu");
 	}
 }

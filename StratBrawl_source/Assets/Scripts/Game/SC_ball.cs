@@ -46,8 +46,7 @@ public class SC_ball : MonoBehaviour {
 			_brawler._T_brawler.renderer.sharedMaterial = _brawler._Mat_team_true_ball;
 		else
 			_brawler._T_brawler.renderer.sharedMaterial = _brawler._Mat_team_false_ball;
-		
-		_T_ball.localPosition = new Vector3(0f, 0f, -1f);
+		_T_ball.localPosition = new Vector3(0f, -0.35f, -1f);
 	}
 
 	/// SUMMARY : Set the cell where the ball is.
