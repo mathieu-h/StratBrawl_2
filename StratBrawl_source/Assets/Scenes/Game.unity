@@ -2466,6 +2466,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: 2c721563957990b45b3be89d7b55f97c,
         type: 3}
+    - target: {fileID: 11400002, guid: 6a1f14dad6140fd4ea40f100096ef987, type: 2}
+      propertyPath: _game_settings
+      value: 
+      objectReference: {fileID: 11400000, guid: 26feb35ec4d17b34e92e39af0b3ffabb,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6a1f14dad6140fd4ea40f100096ef987, type: 2}
   m_RootGameObject: {fileID: 1349713893}
@@ -3395,7 +3400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c444b42e224cbd44ba025d90e8076864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _game_settings: {fileID: 11400000, guid: e7504d150beef30499ce71b3cd18b1a5, type: 2}
+  _game_settings: {fileID: 11400000, guid: 26feb35ec4d17b34e92e39af0b3ffabb, type: 2}
 --- !u!1 &1356175195
 GameObject:
   m_ObjectHideFlags: 0

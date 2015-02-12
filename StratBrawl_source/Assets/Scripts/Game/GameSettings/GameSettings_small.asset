@@ -13,32 +13,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _s_settings_name: Blitz
   _settings:
-    i_game_field_width: 12
-    i_game_field_height: 7
-    i_nb_turn_max: 20
-    i_nb_score_max: 5
+    i_game_field_width: 9
+    i_game_field_height: 5
+    i_nb_turn_max: 10
+    i_nb_score_max: 3
     i_planification_time: 60
-    i_nb_brawlers_per_team: 5
+    i_nb_brawlers_per_team: 3
     positions_brawlers_attack_formation:
-    - _i_x: 5
-      _i_y: 3
     - _i_x: 4
-      _i_y: 1
-    - _i_x: 4
-      _i_y: 5
-    - _i_x: 2
       _i_y: 2
+    - _i_x: 2
+      _i_y: 0
     - _i_x: 2
       _i_y: 4
     positions_brawlers_defense_formation:
     - _i_x: 1
-      _i_y: 3
-    - _i_x: 2
-      _i_y: 1
-    - _i_x: 2
-      _i_y: 5
-    - _i_x: 4
       _i_y: 2
-    - _i_x: 4
+    - _i_x: 3
+      _i_y: 0
+    - _i_x: 3
       _i_y: 4
-    f_orthographic_size: 5
