@@ -11,6 +11,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 	private int _i_score_team_true = 0;
 	private int _i_score_team_false = 0;
 
+	private int _i_current_turn = 0;
+
 	[SerializeField]
 	private Camera _camera;
 	[SerializeField]
@@ -66,6 +68,7 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_manager_ui.SetScore(true, _i_score_team_true);
 		_manager_ui.SetScore(false, _i_score_team_false);
 		_manager_ui.EndTimer();
+		_manager_ui.InitRound(1, _game_settings._i_nb_turn_max);
 
 		Network.isMessageQueueRunning = true;
 		if (Network.isClient)

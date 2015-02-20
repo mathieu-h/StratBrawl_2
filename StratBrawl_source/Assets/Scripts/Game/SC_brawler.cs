@@ -46,7 +46,6 @@ public class SC_brawler : MonoBehaviour {
 		_b_team = b_team;
 		renderer.material = b_team ? _Mat_team_true : _Mat_team_false;
 		_T_brawler.Rotate(new Vector3(0,0, b_team ? 90 : 270));
-		//sprite
 		_GO_button_brawler.SetActive(false);
 		InitActions(3);
 	}

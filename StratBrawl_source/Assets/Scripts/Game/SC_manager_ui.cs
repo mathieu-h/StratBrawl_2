@@ -15,6 +15,10 @@ public class SC_manager_ui : MonoBehaviour {
 	private Text _Text_timer;
 
 	[SerializeField]
+	private Text _Text_round;
+	private string _s_nb_turn_max;
+
+	[SerializeField]
 	private GameObject _GO_button_back_slots_brawler;
 	[SerializeField]
 	private GameObject _GO_button_back_types;
@@ -170,6 +174,17 @@ public class SC_manager_ui : MonoBehaviour {
 	{
 		StopCoroutine("Timer_Coroutine");
 		_GO_timer.SetActive(false);
+	}
+
+	public void InitRound(int i_current_turn, int i_nb_turn_max)
+	{
+		_s_nb_turn_max = i_nb_turn_max.ToString();
+		_Text_round.text = "Turn : " + i_current_turn.ToString() + " / " + _s_nb_turn_max;
+	}
+
+	public void UpdateRound(int i_current_turn)
+	{
+		_Text_round.text = "Turn : " + i_current_turn.ToString() + " / " + _s_nb_turn_max;
 	}
 
 	public void SetEnd(GameResult game_result)

@@ -28,6 +28,7 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_board_game.SetActiveButtonsBrawlers(true, _b_player_team);
 		_manager_ui.SetActiveButtonEndTurn (true);
 		_manager_ui.StartTimer(_game_settings._i_planification_time);
+		_manager_ui.UpdateRound(++_i_current_turn);
 		int i_width = _game_settings._i_nb_brawlers_per_team;
 		int i_height = 3;		
 		// TODO int i_height = _game_settings._i_nb_actions_per_turn;

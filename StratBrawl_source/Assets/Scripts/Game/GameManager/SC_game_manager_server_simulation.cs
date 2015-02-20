@@ -389,8 +389,6 @@ public partial class SC_game_manager_server {
 				}
 			}
 
-			DebugPositions(_terrain_data);
-
 			// Loop in brawler to simulate pass action.
 			for (int j = 0; j < _brawlers_data._i_nb_brawlers; j++)
 			{
@@ -595,26 +593,5 @@ public partial class SC_game_manager_server {
 		game_snap._cell_with_the_ball = _ball_data._position_on_ground_current;
 
 		return game_snap;
-	}
-
-
-	private void DebugPositions(TerrainData _terrain)
-	{
-		for (int i = 0; i < _terrain._i_terrain_height; ++i)
-		{
-			string s_positions = "";
-			for (int j = 0; j < _terrain._i_terrain_width; ++j)
-			{
-				s_positions += " | " + _terrain._i_position_brawlers_current[j,i];
-			}
-			s_positions += "          ";
-			for (int j = 0; j < _terrain._i_terrain_width; ++j)
-			{
-				s_positions += " | " + _terrain._i_position_brawlers_prevision[j,i];
-			}
-			Debug.Log(s_positions);
-		}
-		Debug.Log(" " );
-		Debug.Log(" " );
 	}
 }
