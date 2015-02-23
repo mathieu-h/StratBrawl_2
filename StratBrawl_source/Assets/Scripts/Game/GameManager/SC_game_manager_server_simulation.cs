@@ -12,7 +12,7 @@ public partial class SC_game_manager_server {
 	private int _i_turn = 0;
 
 	private BallData _ball_data;
-	private BrawlersData _brawlers_data;
+	public BrawlersData _brawlers_data;
 	private TerrainData _terrain_data;
 
 	private GameSnap _game_snap_start;
@@ -164,11 +164,11 @@ public partial class SC_game_manager_server {
 				f_distance_current = Vector2.Distance(position_start.ToVector2(), V2_current_position);
 
 				int i_brawler = GetCurrentBrawlerIndexAtPosition(position_current);
-				if (i_brawler != -1)
+				if (i_brawler != -1 && !SC_game_manager_server._instance._brawlers_data._brawlers[i_brawler]._b_is_KO_current)
 					return i_brawler;
 
 				i_brawler = GetPrevisionBrawlerIndexAtPosition(position_current);
-				if (i_brawler != -1)
+				if (i_brawler != -1 && !SC_game_manager_server._instance._brawlers_data._brawlers[i_brawler]._b_is_KO_current)
 					return i_brawler;
 			}
 
@@ -189,7 +189,7 @@ public partial class SC_game_manager_server {
 	}
 	
 	
-	private class BrawlersData
+	public class BrawlersData
 	{
 		public int _i_nb_brawlers;
 		public int _i_nb_brawler_per_team;
@@ -251,7 +251,7 @@ public partial class SC_game_manager_server {
 	}
 	
 	
-	private class BrawlerData
+	public class BrawlerData
 	{
 		public int _i_index;
 		public bool _b_team;
@@ -439,8 +439,6 @@ public partial class SC_game_manager_server {
 					GridPosition position_to_tackle = _brawlers_data._brawlers[j]._position_current + direction;
 					TackleBrawler(j, _terrain_data.GetPrevisionBrawlerIndexAtPosition(position_to_tackle));
 					TackleBrawler(j, _terrain_data.GetCurrentBrawlerIndexAtPosition(position_to_tackle));
-					Debug.Log (_terrain_data.GetPrevisionBrawlerIndexAtPosition(position_to_tackle));
-					Debug.Log (_terrain_data.GetCurrentBrawlerIndexAtPosition(position_to_tackle));
 				}
 			}
 
@@ -529,7 +527,8 @@ public partial class SC_game_manager_server {
 	{
 		if (i_brawler_to_tackle != -1)
 		{
-			_brawlers_data._brawlers[i_brawler_to_tackle]._b_is_KO_prevision = true;
+			if (!_brawlers_data._brawlers[i_brawler_to_tackle]._b_is_KO_current)
+				_brawlers_data._brawlers[i_brawler_to_tackle]._b_is_KO_prevision = true;
 			if (_brawlers_data._brawlers[i_brawler_to_tackle]._b_have_the_ball_prevision)
 			{
 				_brawlers_data._brawlers[i_brawler_to_tackle]._b_have_the_ball_prevision = false;

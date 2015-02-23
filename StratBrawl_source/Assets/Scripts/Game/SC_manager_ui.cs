@@ -191,6 +191,7 @@ public class SC_manager_ui : MonoBehaviour {
 	{
 		_GO_menu_end.SetActive(true);
 		_GO_timer.SetActive(false);
+		_GO_button_end_turn.SetActive(false);
 		switch(game_result)
 		{
 		case GameResult.Win:
