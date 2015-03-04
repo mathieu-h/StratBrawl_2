@@ -63,6 +63,5 @@ public class SC_menu_click_handler: MonoBehaviour
 				Screen.autorotateToLandscapeRight = false;
 				Screen.autorotateToLandscapeLeft = false;
 				Screen.autorotateToPortraitUpsideDown = false;
-				Screen.orientation = ScreenOrientation.Portrait;
 		}
 }
