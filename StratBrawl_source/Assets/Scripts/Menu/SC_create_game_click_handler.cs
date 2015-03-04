@@ -35,10 +35,10 @@ public class SC_create_game_click_handler : MonoBehaviour
 		/// RETURN : Void.
 		public void RegisterAGame (string gameName)
 		{
-	
+				
 				Network.InitializeServer (32, 1119, true);// !Network.HavePublicAddress ());
-				MasterServer.ipAddress = "127.0.0.1";
-				MasterServer.port = 23466;
+				//MasterServer.ipAddress = "127.0.0.1";
+				//MasterServer.port = 23466;
 				MasterServer.RegisterHost ("1V1", gameName, "Test Comment");
 		}
 

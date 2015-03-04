@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d55402306801cb43ae64624454c375a, type: 3}
+  m_Name: New SO_game_settings
+  m_EditorClassIdentifier: 
+  _s_settings_name: 
+  _settings:
+    i_game_field_width: 12
+    i_game_field_height: 7
+    i_nb_turn_max: 20
+    i_nb_score_max: 5
+    i_planification_time: 60
+    i_nb_brawlers_per_team: 5
+    positions_brawlers_attack_formation:
+    - _i_x: 5
+      _i_y: 3
+    - _i_x: 4
+      _i_y: 1
+    - _i_x: 4
+      _i_y: 5
+    - _i_x: 2
+      _i_y: 2
+    - _i_x: 2
+      _i_y: 4
+    positions_brawlers_defense_formation:
+    - _i_x: 1
+      _i_y: 3
+    - _i_x: 2
+      _i_y: 1
+    - _i_x: 2
+      _i_y: 5
+    - _i_x: 4
+      _i_y: 2
+    - _i_x: 4
+      _i_y: 4

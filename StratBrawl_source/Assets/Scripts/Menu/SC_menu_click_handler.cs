@@ -52,8 +52,8 @@ public class SC_menu_click_handler: MonoBehaviour
 		/// RETURN : Return the servers waiting for players
 		public void RetrieveHostList ()
 		{
-				MasterServer.ipAddress = "127.0.0.1";
-				MasterServer.port = 23466;
+				//MasterServer.ipAddress = "127.0.0.1";
+				//MasterServer.port = 23466;
 				MasterServer.RequestHostList ("1V1");
 		}
 
