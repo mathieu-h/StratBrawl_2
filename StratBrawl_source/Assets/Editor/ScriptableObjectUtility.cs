@@ -33,7 +33,7 @@ public static class ScriptableObjectUtility
 	/// SUMMARY : 
 	/// PARAMETERS : None.
 	/// RETURN : Void.
-	[MenuItem("Custom/CreateGameSettings")]
+	[MenuItem("StratBrawl/CreateGameSettings")]
 	public static void CreateGameSettings()
 	{
 		ScriptableObjectUtility.CreateAsset<SO_game_settings>();

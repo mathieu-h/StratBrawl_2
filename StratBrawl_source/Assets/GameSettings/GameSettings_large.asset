@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2d55402306801cb43ae64624454c375a, type: 3}
-  m_Name: New SO_game_settings
+  m_Name: GameSettings_large
   m_EditorClassIdentifier: 
-  _s_settings_name: 
+  _s_settings_name: Large
   _settings:
     i_game_field_width: 12
     i_game_field_height: 7
