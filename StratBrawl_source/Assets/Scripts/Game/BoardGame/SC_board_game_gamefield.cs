@@ -68,7 +68,7 @@ public partial class SC_board_game : MonoBehaviour {
 
 		_T_camera.position = new Vector3((i_width - 1) * 0.5f, (i_height - 1) * 0.5f, -10);
 
-		float f_ortho_size = Mathf.Min((float)i_height * 0.5f, (float)i_width / (float)Screen.width * (float)Screen.height * 0.5f);
+		float f_ortho_size = Mathf.Max((float)i_height * 0.5f, (float)i_width * 0.5f * (float)Screen.height / (float)Screen.width);
 		f_ortho_size += f_ortho_size * 0.3f;
 		_camera.orthographicSize = f_ortho_size;
 	}
