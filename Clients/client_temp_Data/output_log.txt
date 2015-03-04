@@ -13,105 +13,17 @@ Platform assembly: D:\COURS\Unity\StratBrawl_2\Clients\client_temp_Data\Managed\
 Loading D:\COURS\Unity\StratBrawl_2\Clients\client_temp_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: D:\COURS\Unity\StratBrawl_2\Clients\client_temp_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading D:\COURS\Unity\StratBrawl_2\Clients\client_temp_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.062 seconds
-desktop: 1920x1080 60Hz; virtual: 3840x1193 at -1920,-113
+- Completed reload, in  0.079 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 Platform assembly: D:\COURS\Unity\StratBrawl_2\Clients\client_temp_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\COURS\Unity\StratBrawl_2\Clients\client_temp_Data\Managed\System.dll (this message is harmless)
-UnloadTime: 0.263571 ms
-System memory in use before: 10.7 MB.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 10.6 MB.
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 399.
-Total: 1.016924 ms (FindLiveObjects: 0.029559 ms CreateObjectMapping: 0.012316 ms MarkObjects: 0.284919 ms  DeleteObjects: 0.011084 ms)
-
-Client : 0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
+Failed to connect to master server at 127.0.0.1:23466
  
-(Filename: D Line: 0)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/MasterServerInterface.cpp Line: 231)
 
-Client : 0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
+Failed to connect to master server at 127.0.0.1:23466
  
-(Filename: D Line: 0)
-
-Client : 0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 0
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 9
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 9
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 9
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 7
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 7
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 8
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 8
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-Client : 8
-UnityEngine.Debug:Internal_Log(Int32, String, Object)
-UnityEngine.Debug:Log(Object)
-<Animate>c__Iterator0:MoveNext() (at D:\COURS\Unity\StratBrawl_2\StratBrawl_source\Assets\Scripts\Game\BoardGame\SC_board_game_animation.cs:70)
- 
-(Filename: D Line: 0)
-
-The server has disconnected from the client. Most likely the server has shut down.
- 
-(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/NetworkManager.cpp Line: 745)
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/Runtime/Network/MasterServerInterface.cpp Line: 231)
 

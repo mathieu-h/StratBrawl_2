@@ -64,12 +64,26 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_selected_brawler = _brawler;
 		_manager_ui.UpdateActionsSlotForBrawler(_selected_brawler);
 		_brawler.HighLightBrawler();
+		highLightActionsOfBrawler (false);
 			//_board_game.SetActiveButtonsBrawlers (false, _brawler._b_team);
 		//}
 		// By default the first action is selected
 		_selected_slot = 0;		
 		_manager_ui.HighlightSlot (_selected_slot);
 		OpenMenuActionsTypes ();
+	}
+
+	/// SUMMARY : Set all the image of the selected_brawler's actions in yellow or white following the parameter
+	/// PARAMETERS : highlighted => the actual state of the image
+	/// RETURN : Void.
+	public void highLightActionsOfBrawler(bool highlighted){
+		
+		for (int i = 0; i< _selected_brawler._actions.Length ; i++) {
+			Action action = _selected_brawler._actions[i];
+			Image image = _img_brawler_actions_cells[_selected_brawler._i_index_in_team,i];
+			if(highlighted) image.color = new Color (255f, 255f, 255f,1);	
+			else image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);	
+		}
 	}
 
 	/// SUMMARY : Opens the panel containing the different types slots of action possible
@@ -93,6 +107,7 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_manager_ui.SetActivePanelActionsTypes(false);
 		SetActiveCellsForMoveAndTackle (false);
 		SetActiveCellsForPass (false);
+		highLightActionsOfBrawler (true);
 		_selected_brawler.ResetMat();
 		_selected_brawler = null;
 	}
@@ -301,7 +316,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 			}
 			if (action._action_type == ActionType.Move) {
 				image.sprite = _Spr_ui_arrow;
-				image.color = new Color (255, 255, 255, 255);				
+				//image.color = new Color (255, 255, 255, 255);
+				image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);	
 				image.rectTransform.localScale = new Vector3(1f,1f,1f);
 				switch (action._direction_move) {
 					case Direction.Right:				
@@ -319,7 +335,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 			}else if (action._action_type == ActionType.Tackle) {
 				//image.sprite = _Spr_ui_arrow;
 				image.sprite = _Spr_ui_tackle;
-				image.color = new Color (255, 255, 255, 255);
+				//image.color = new Color (255, 255, 255, 255);
+				image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);					
 				image.rectTransform.localScale = new Vector3(0.7f,0.7f,1f);
 				//image.color = new Color (0, 0, 0, 255);
 				/*
@@ -341,7 +358,8 @@ public partial class SC_game_manager_client : MonoBehaviour {
 			}else if (action._action_type == ActionType.Pass) {				
 					image.rectTransform.localScale = new Vector3(1f,1f,1f);
 					image.sprite = _Spr_ui_ball;
-					image.color = new Color (255, 255, 255, 255);
+					//image.color = new Color (255, 255, 255, 255);
+					image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);	
 			} 
 		}
 	}
