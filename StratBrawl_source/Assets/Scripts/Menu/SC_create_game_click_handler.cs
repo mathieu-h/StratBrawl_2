@@ -21,12 +21,13 @@ public class SC_create_game_click_handler : MonoBehaviour
 		/// RETURN : Void.
 		public void ClickCreateButton (InputField gameName)
 		{
-				if(!gameName.text.Equals("")){
-					_GO_current_panel.SetActive (false);
-					_GO_next_panel.SetActive (true);
-					_TE_lobby_title.text = gameName.text;
-					RegisterAGame (gameName.text);
-				}
+				if (gameName.text.Equals(""))
+					gameName.text = "Unnamed";
+		
+				_GO_current_panel.SetActive (false);
+				_GO_next_panel.SetActive (true);
+				_TE_lobby_title.text = gameName.text;
+				RegisterAGame (gameName.text);
 		}
 		
 		/// SUMMARY : Initialize a new server using the game name and register it to the master server

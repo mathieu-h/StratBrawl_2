@@ -273,7 +273,7 @@ public partial class SC_game_manager_server {
 			{
 				_b_is_KO_current = _b_is_KO_prevision;
 				_b_is_KO_prevision = false;
-				_i_KO_round_remaining = 3;
+				_i_KO_round_remaining = SC_game_balance._i_ko_nb_actions;
 			}
 			else if (_i_KO_round_remaining > 0)
 				_i_KO_round_remaining--;

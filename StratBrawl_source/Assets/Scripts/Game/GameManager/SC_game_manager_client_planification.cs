@@ -151,7 +151,7 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		}
 		GridPosition cell_selected_position = CalculateCurrentPositionWithFutureActions();
 		// TODO int nb_cells = _game_settings._i_pass_nb_cells;
-		int nb_cells = 5;
+		int nb_cells = SC_game_balance._i_pass_length;
 		int x = (int)cell_selected_position.GetWorldPosition ().x;
 		int y = (int)cell_selected_position.GetWorldPosition ().y;
 		for (int i=0; i <= nb_cells; i++) {
