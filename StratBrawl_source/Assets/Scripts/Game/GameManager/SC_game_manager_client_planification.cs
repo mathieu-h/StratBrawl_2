@@ -21,7 +21,12 @@ public partial class SC_game_manager_client : MonoBehaviour {
 
 	private Image[,] _img_brawler_actions_cells;
 
-
+	// Stronger colors
+	//private Color[] colorsBrawlers = {new Color(51f/255f,153f/255f,1,1), new Color(176f/255f,1,102f/255f,1f), new Color(249f/255f,106f/255f,106f/255f), 
+	//	new Color(1,178f/255f,102f/255f), new Color(204f/255f,153f/255f,1)}; 
+	// Blue Green Red Orange Purple 
+	private Color[] colorsBrawlers = {new Color(153f/255f,204f/255f,1,1f), new Color(204f/255f,1,153f/255f,1f), new Color(1f,153f/255f,153f/255f,1f), 
+		new Color(1,204f/255f,153f/255f,1f), new Color(204f/255f,204f/255f,1,1f)};
 	//Planification
 
 	public void InitPlanification(){
@@ -77,13 +82,19 @@ public partial class SC_game_manager_client : MonoBehaviour {
 	/// PARAMETERS : highlighted => the actual state of the image
 	/// RETURN : Void.
 	public void highLightActionsOfBrawler(bool highlighted){
-		
-		for (int i = 0; i< _selected_brawler._actions.Length ; i++) {
-			Action action = _selected_brawler._actions[i];
-			Image image = _img_brawler_actions_cells[_selected_brawler._i_index_in_team,i];
-			if(highlighted) image.color = new Color (255f, 255f, 255f,1);	
-			else image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);	
-		}
+			for (int i = 0; i< _selected_brawler._actions.Length; i++) {
+				if(_selected_brawler._actions[i]._action_type != ActionType.None){
+					Action action = _selected_brawler._actions [i];
+					Image image = _img_brawler_actions_cells [_selected_brawler._i_index_in_team, i];
+					if (highlighted)
+							//image.color = new Color (255f, 255f, 255f, 1);
+							image.color = colorsBrawlers[_selected_brawler._i_index_in_team];
+					else
+							image.color = new Color (248f / 255f, 234f / 255f, 127f / 255f, 1);	
+							//image.color = colorsBrawlers[_selected_brawler._i_index_in_team];
+							//else image.color = new Color(colorsBrawlers[1]);
+				}
+			}
 	}
 
 	/// SUMMARY : Opens the panel containing the different types slots of action possible
@@ -318,7 +329,7 @@ public partial class SC_game_manager_client : MonoBehaviour {
 				image.sprite = _Spr_ui_arrow;
 				//image.color = new Color (255, 255, 255, 255);
 				image.color = new Color (248f/255f, 234f/255f, 127f/255f,1);	
-				image.rectTransform.localScale = new Vector3(1f,1f,1f);
+				image.rectTransform.localScale = new Vector3(0.9f,0.7f,1f);
 				switch (action._direction_move) {
 					case Direction.Right:				
 							image.rectTransform.Rotate (new Vector3 (0, 0, 180));
