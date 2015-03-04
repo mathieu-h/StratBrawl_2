@@ -95,4 +95,14 @@ public partial class SC_board_game : MonoBehaviour {
 			}
 		}
 	}
+
+	public void StopAnimation()
+	{
+		StopAllCoroutines();
+		for (int i = 0; i < _brawlers.Length; i++)
+		{
+			_brawlers[i]._animation.StopAllCoroutines();
+		}
+		_ball._animation.StopAllCoroutines();
+	}
 }
