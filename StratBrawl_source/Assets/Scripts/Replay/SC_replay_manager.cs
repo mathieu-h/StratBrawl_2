@@ -6,36 +6,97 @@ public class SC_replay_manager : MonoBehaviour {
 	static public Replay _replay;
 
 	[SerializeField]
-	SC_board_game _board_game;
+	private SC_board_game _board_game;
 
 	[SerializeField]
-	SC_manager_ui _manager_ui;
+	private SC_manager_ui _manager_ui;
+
+	private int _i_current_turn = 0;
 
 	private int _i_score_team_true = 0;
 	private int _i_score_team_false = 0;
+
+	private bool _b_is_playing = false;
+	private bool _b_is_asking_for_pause = false;
 
 
 	void Start ()
 	{
 		_board_game.Init(_replay._game_settings);
 		_board_game.SetGameFromSnap(_replay._start_game_snap);
-
 		_manager_ui.InitRound(1, _replay._game_settings._i_nb_turn_max);
+	}
 
-		StartCoroutine(PlayRecord(_replay._record));
+	public void Play()
+	{
+		_b_is_asking_for_pause = false;
+		if (!_b_is_playing)
+			StartCoroutine(PlayRecord(_replay._record));
+	}
+
+	public void Pause()
+	{
+		_b_is_asking_for_pause = true;
+	}
+
+	public void PlayOneTurn()
+	{
+		if (!_b_is_playing)
+			StartCoroutine(PlayOneTurn_Coroutine(_replay._record));
+	}
+
+	public void ReturnToStart()
+	{
+		StopAllCoroutines();
+		_board_game.StopAnimation();
+		_board_game.SetGameFromSnap(_replay._start_game_snap);
+		_manager_ui.InitRound(1, _replay._game_settings._i_nb_turn_max);
+		_b_is_playing = false;
+		_i_current_turn = 0;
+		_i_score_team_true = 0;
+		_i_score_team_false = 0;
+		_manager_ui.SetScore(false, 0);
+		_manager_ui.SetScore(true, 0);
+	}
+
+	public void Quit()
+	{
+		Application.LoadLevel("Menu");
 	}
 
 	private IEnumerator PlayRecord(SimulationResult[][] _record)
 	{
-		yield return new WaitForSeconds(2f);
-		for (int i = 0; i < _record.GetLength(0); ++i)
+		_b_is_playing = true;
+
+		if(_i_current_turn >= _record.Length)
+			_b_is_asking_for_pause = true;
+
+		while (!_b_is_asking_for_pause)
 		{
-			yield return StartCoroutine(_board_game.Animate(_record[i]));
+			yield return StartCoroutine(_board_game.Animate(_record[_i_current_turn]));
 			yield return new WaitForSeconds(1f);
-			_manager_ui.UpdateRound(i + 1);
+			_i_current_turn++;
+			if(_i_current_turn >= _record.Length)
+				break;
+			_manager_ui.UpdateRound(_i_current_turn + 1);
 		}
-		yield return new WaitForSeconds(2f);
-		Application.LoadLevel("Menu");
+
+		_b_is_playing = false;
+	}
+
+	private IEnumerator PlayOneTurn_Coroutine(SimulationResult[][] _record)
+	{
+		_b_is_playing = true;
+		
+		if(!(_i_current_turn >= _record.Length))
+		{
+			yield return StartCoroutine(_board_game.Animate(_record[_i_current_turn]));
+			_i_current_turn++;
+			if(!(_i_current_turn >= _record.Length))
+				_manager_ui.UpdateRound(_i_current_turn + 1);
+		}
+
+		_b_is_playing = false;
 	}
 
 	private void IncrementScore(bool b_team)
