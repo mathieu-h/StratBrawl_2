@@ -57,6 +57,9 @@ public partial class SC_game_manager_client : MonoBehaviour {
 		_manager_ui.SetActivePanelActionsSlotsBrawler(true);
 		_manager_ui.SetActiveButtonBackSlotsBrawler(true);
 		_manager_ui.SetActiveButtonEndTurn (false);
+		if (_selected_brawler!=null) {
+			highLightActionsOfBrawler (true);
+		}
 		if (_selected_brawler != null) {
 			_selected_brawler.ResetMat();
 			SetActiveCellsForMoveAndTackle (false);
@@ -81,20 +84,22 @@ public partial class SC_game_manager_client : MonoBehaviour {
 	/// SUMMARY : Set all the image of the selected_brawler's actions in yellow or white following the parameter
 	/// PARAMETERS : highlighted => the actual state of the image
 	/// RETURN : Void.
-	public void highLightActionsOfBrawler(bool highlighted){
+	public void highLightActionsOfBrawler(bool highlighted){		
+		if (_selected_brawler._actions [0]._action_type != ActionType.None) {
 			for (int i = 0; i< _selected_brawler._actions.Length; i++) {
-				if(_selected_brawler._actions[i]._action_type != ActionType.None){
+				if (_selected_brawler._actions [i]._action_type != ActionType.None) {
 					Action action = _selected_brawler._actions [i];
 					Image image = _img_brawler_actions_cells [_selected_brawler._i_index_in_team, i];
 					if (highlighted)
-							//image.color = new Color (255f, 255f, 255f, 1);
-							image.color = colorsBrawlers[_selected_brawler._i_index_in_team];
+						//image.color = new Color (255f, 255f, 255f, 1);
+						image.color = colorsBrawlers [_selected_brawler._i_index_in_team];
 					else
-							image.color = new Color (248f / 255f, 234f / 255f, 127f / 255f, 1);	
-							//image.color = colorsBrawlers[_selected_brawler._i_index_in_team];
-							//else image.color = new Color(colorsBrawlers[1]);
+						image.color = new Color (248f / 255f, 234f / 255f, 127f / 255f, 1);	
+						//image.color = colorsBrawlers[_selected_brawler._i_index_in_team];
+						//else image.color = new Color(colorsBrawlers[1]);
 				}
 			}
+		}
 	}
 
 	/// SUMMARY : Opens the panel containing the different types slots of action possible

@@ -1460,6 +1460,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1349713895}
+    - target: {fileID: 100012, guid: e520990aaa634e54aa1b61a42cdffa2e, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e520990aaa634e54aa1b61a42cdffa2e, type: 2}
   m_RootGameObject: {fileID: 409915457}
@@ -3199,6 +3203,7 @@ GameObject:
   - 148: {fileID: 1349713896}
   - 114: {fileID: 1349713897}
   - 114: {fileID: 1349713895}
+  - 114: {fileID: 1349713898}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -3265,6 +3270,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _game_settings: {fileID: 11400000, guid: e7504d150beef30499ce71b3cd18b1a5, type: 2}
+--- !u!114 &1349713898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1349713893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ec8d21d4619ef4a91e87ada9692d15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _screen_orientation: 3
 --- !u!1 &1356175195
 GameObject:
   m_ObjectHideFlags: 0
