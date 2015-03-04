@@ -63,12 +63,10 @@ public partial class SC_board_game : MonoBehaviour {
 		_cells_gameField[i_width - 1, 0]._T_graphic.eulerAngles = Vector3.forward * 180;
 		_cells_gameField[0, i_height - 1]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
 		_cells_gameField[i_width - 1, i_height - 1]._T_graphic.renderer.sharedMaterial = _Mat_gamefield_score_zone_border;
-
-
-
+		
 		_T_camera.position = new Vector3((i_width - 1) * 0.5f, (i_height - 1) * 0.5f, -10);
 
-		float f_ortho_size = Mathf.Min((float)i_height * 0.5f, (float)i_width / (float)Screen.width * (float)Screen.height * 0.5f);
+		float f_ortho_size = Mathf.Max((float)i_height * 0.5f, (float)i_width * 0.5f * (float)Screen.height / (float)Screen.width);
 		f_ortho_size += f_ortho_size * 0.3f;
 		_camera.orthographicSize = f_ortho_size;
 	}
