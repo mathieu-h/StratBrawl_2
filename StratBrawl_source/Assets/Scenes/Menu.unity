@@ -1979,6 +1979,7 @@ MonoBehaviour:
   m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Priority: 3
   ignoreReversedGraphics: 1
   blockingObjects: 0
   m_BlockingMask:
@@ -5929,7 +5930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52ec8d21d4619ef4a91e87ada9692d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _screen_orientation: 1
+  _screen_orientation: 3
 --- !u!1 &2074342934
 GameObject:
   m_ObjectHideFlags: 0
